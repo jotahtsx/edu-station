@@ -1,9 +1,11 @@
 {
-    "/backend/assets/css/login.css": "/backend/assets/css/login.css?id=edbff9b30e10df5d078b2df9cfa7a8dd",
-    "/backend/assets/css/boot.css": "/backend/assets/css/boot.css?id=68b329da9893e34099c7d8ad5cb9c940",
+    "/backend/assets/css/login.css": "/backend/assets/css/login.css?id=075f4a3342503809c5da27b1071e8f67",
+    "/backend/assets/css/app.css": "/backend/assets/css/app.css?id=2219b642e18dc7ce639d484d3f2a076d",
     "/backend/assets/css/reset.css": "/backend/assets/css/reset.css?id=68b329da9893e34099c7d8ad5cb9c940",
+    "/backend/assets/css/libs.css": "/backend/assets/css/libs.css?id=26f14e9fb2facd6a43eddd54aa663300",
     "/backend/assets/js/jquery.js": "/backend/assets/js/jquery.js?id=2c872dbe60f4ba70fb85356113d8b35e",
-    "/backend/assets/js/login.js": "/backend/assets/js/login.js?id=da9c97267c45d845b56f89e76319686c",
+    "/backend/assets/js/login.js": "/backend/assets/js/login.js?id=d41d8cd98f00b204e9800998ecf8427e",
+    "/backend/assets/js/app.js": "/backend/assets/js/app.js?id=05f733eb54e6b3e4c627db59acaa7e44",
     "/backend/assets/images/login-image.svg": "/backend/assets/images/login-image.svg?id=b5a5521918a577ed5a357fa914f58d35",
     "/backend/assets/images/logo.svg": "/backend/assets/images/logo.svg?id=5a34a4c8ef37ef77024548950b8e3fe0"
 }
