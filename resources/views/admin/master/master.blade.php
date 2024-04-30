@@ -21,6 +21,8 @@
 
 <body>
 
+    <p>lorem ipsum dolor sit amet, consectet</p>
+
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
     <script src="{{ url(mix('backend/assets/js/app.js')) }}"></script>
 </body>
