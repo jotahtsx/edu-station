@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* Variáveis */
+:root {
+  --edu-primary-clr: #34426f;
+  --edu-primary-100-clr: #a9b0c2;
+  --edu-primary-200-clr: #a0a8bc;
+  --edu-primary-300-clr: #969fb5;
+  --edu-primary-400-clr: #2f3c65;
+  --edu-primary-500-clr: #181f34;
+  --edu-primary-600-clr: #161c2f;
+  --edu-secondary-clr: #7d83ff;
+  --edu-secondary-100-clr: #bdbfff;
+  --edu-secondary-200-clr: #c3c5ff;
+  --edu-secondary-300-clr: #c8caff;
+  --edu-secondary-400-clr: #414384;
+  --edu-secondary-500-clr: #3b3d78;
+  --edu-secondary-600-clr: #36376d;
+  --edu-warn-clr: #fd8b49;
+  --edu-warn-100-clr: #fdc4a1;
+  --edu-warn-200-clr: #fdc9aa;
+  --edu-warn-300-clr: #fdceb2;
+  --edu-warn-400-clr: #fda977;
+  --edu-warn-500-clr: #fda069;
+  --edu-warn-600-clr: #fd965a;
+  --edu-success-clr: #5fab76;
+  --edu-success-100-clr: #add4b8;
+  --edu-success-200-clr: #b4d8be;
+  --edu-success-300-clr: #bbdcc4;
+  --edu-success-400-clr: #87c097;
+  --edu-success-500-clr: #7bba8d;
+  --edu-success-600-clr: #6eb382;
+  --edu-info-clr: #4a529d;
+  --edu-info-100-clr: #9faac4;
+  --edu-info-200-clr: #a8b2c9;
+  --edu-info-300-clr: #b0b9ce;
+  --edu-info-400-clr: #7184a9;
+  --edu-info-500-clr: #6378a0;
+  --edu-info-600-clr: #536b97;
+  --edu-danger-clr: #c44f4f;
+  --edu-danger-100-clr: #c098a2;
+  --edu-danger-200-clr: #c6a1aa;
+  --edu-danger-300-clr: #cbaab2;
+  --edu-danger-400-clr: #a36978;
+  --edu-danger-500-clr: #9a5a6a;
+  --edu-danger-600-clr: #a85661;
+  --edu-gray-clr: #f3f3f9;
+  --edu-gray-50-clr: #fefefe;
+  --edu-gray-100-clr: #fafafa;
+  --edu-gray-200-clr: #f5f5fa;
+  --edu-gray-300-clr: #f7f7fa;
+  --edu-gray-400-clr: #dddde2;
+  --edu-gray-500-clr: #c9c9cd;
+  --edu-gray-600-clr: #9191a1;
+  /* ************** CORES ************** */
+  --global-bg-clr: var(--edu-gray-clr);
+  /* Sidebar */
+  --sidebar-bg-clr: var(--edu-primary-clr);
+  --sidebar-menu-item-clr: var(--edu-gray-50-clr);
+  --sidebar-menu-item-hvr-bg-clr: var(--edu-primary-400-clr);
+  --sidebar-menu-item-active-brd-clr: var(--edu-secondary-clr);
+  --sidebar-menu-title-clr: var(--edu-gray-500-clr);
+  --sidebar-empl-of-month-bg-clr: rgba(52, 66, 111, 0.8);
+  /* Navegação */
+  --navbar-bg-clr: var(--edu-gray-50-clr);
+  /* Card */
+  --card-bg-clr: var(--edu-gray-50-clr);
+  /* Bordas */
+  --brdr-clr: var(--edu-gray-300-clr);
+  /* Tabelas */
+  --tbl-header-bg-clr: var(--edu-gray-100-clr);
+  /* Tipografia */
+  --global-text-clr: var(--edu-primary-600-clr);
+  --faded-text-clr: var(--edu-gray-500-clr);
+  --link-clr: var(--edu-secondary-clr);
+  /* Ícones */
+  --default-icon-clr: var(--edu-primary-600-clr);
+  --default-icon-hvr-bg-clr: var(--edu-gray-clr);
+  /* Selos */
+  --bdg-success-bg-clr: var(--edu-success-100-clr);
+  --bdg-success-text-clr: var(--edu-success-clr);
+  --bdg-secondary-bg-clr: var(--edu-secondary-100-clr);
+  --bdg-secondary-text-clr: var(--edu-secondary-clr);
+  --bdg-warn-bg-clr: var(--edu-warn-100-clr);
+  --bdg-warn-text-clr: var(--edu-warn-clr);
+  --bdg-danger-bg-clr: var(--edu-danger-100-clr);
+  --bdg-danger-text-clr: var(--edu-danger-clr);
+  /* Formulários */
+  --input-bg-clr: var(--edu-gray-clr);
+  --input-brdr-clr: var(--edu-primary-clr);
+  --textarea-bg-clr: transparent;
+  --textarea-brdr-clr: var(--edu-gray-clr);
+  /* Botões */
+  --btn-default-bg-clr: var(--edu-primary-400-clr);
+  --btn-default-text-clr: var(--edu-gray-50-clr);
+  --btn-primary-bg-clr: var(--edu-primary-100-clr);
+  --btn-primary-text-clr: var(--edu-primary-clr);
+  --btn-secondary-bg-clr: var(--edu-secondary-100-clr);
+  --btn-secondary-text-clr: var(--edu-secondary-clr);
+  --btn-success-bg-clr: var(--edu-success-100-clr);
+  --btn-success-text-clr: var(--edu-success-clr);
+  --btn-warn-bg-clr: var(--edu-warn-100-clr);
+  --btn-warn-text-clr: var(--edu-warn-clr);
+  --btn-danger-bg-clr: var(--edu-danger-100-clr);
+  --btn-danger-text-clr: var(--edu-danger-clr);
+  /* ************** TIPOGRAFIA ************** */
+  --base-font-size: 62.5%;
+  --heading-font-family: "Manrope", sans-serif;
+  --body-font-family: "Poppins", sans-serif;
+  --heading-1: 2.8rem;
+  --heading-2: 2.4rem;
+  --heading-3: 2rem;
+  --heading-4: 1.8rem;
+  --heading-5: 1.6rem;
+  --heading-6: 1.6rem;
+  --paragraph-size: 1.4rem;
+  --card-title: 1.6rem;
+  --small-text: 1.2rem;
+  --menu-item: 1.4rem;
+  --icon-size: 1.4rem;
+  --dropdown-item: 1.3rem;
+  --bdg-size: 1rem;
+  --btn-size: 1.4rem;
+  --heading-line-height: 1.4;
+  --default-line-height: 1.5;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  /* ************** ESPAÇAMENTOS ************** */
+  --spacing-0: 0;
+  --spacing-xs: 0.8rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.2rem;
+  --spacing-lg: 1.4rem;
+  --spacing-xl: 1.6rem;
+  --spacing-18: 1.8rem;
+  --spacing-20: 2rem;
+  /* ************** LAYOUT ************** */
+  --container-default: 90%;
+  --container-sm: 87.5rem;
+  --container-md: 121.5rem;
+  --container-lg: 131.5rem;
+  --container-xl: 156rem;
+  /* ************** COMPONENTES ************** */
+  --default-brd-rad: 0.4rem;
+  --default-btn-padding: 0.9rem 3rem;
+  --default-btn-sm-padding: 0.6rem 2rem;
+  --default-bdg-padding: 0.4rem 1.2rem;
+  --default-input-padding: 0.9rem 3rem;
+  --default-dropdown-width: 22.5rem;
+  --default-dropdown-mx-height: 35rem;
+}
+
+/* ************** TIPOGRAFIA ************** */
+/* ************** ESPAÇAMENTOS ************** */
+/* ************** LAYOUT ************** */
+/* ************** COMPONENTES ************** */

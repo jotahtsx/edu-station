@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap');
-
 body {
   background-color: #1b1f27;
   overflow: hidden;
-  font-family: "Figtree", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 input {
-  font-family: "Figtree", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .area-login {
@@ -67,7 +65,7 @@ input {
 
     .login-do {
       display: block;
-      background-color: #358FE6;
+      background-color: #3498db;
       color: #fff;
       text-transform: uppercase;
       font-size: 18px;

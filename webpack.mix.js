@@ -1,14 +1,9 @@
 const mix = require('laravel-mix');
 
 mix
-  .sass('resources/views/admin/assets/scss/reset.scss', 'public/backend/assets/css/reset.css')
-  .sass('resources/views/admin/assets/scss/app.scss', 'public/backend/assets/css/app.css')
+  .sass('resources/views/admin/assets/scss/main.scss', 'public/backend/assets/css/main.css')
   .sass('resources/views/admin/assets/scss/login.scss', 'public/backend/assets/css/login.css')
 
-
-  .styles([
-      'resources/views/admin/assets/css/normalize.css'
-  ], 'public/backend/assets/css/libs.css')
 
   .scripts([
     'resources/views/admin/assets/js/jquery.js'
