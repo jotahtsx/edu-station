@@ -366,11 +366,6 @@ html {
   height: 100%;
   font-size: var(--base-font-size);
 }
-@media screen and (min-width: 553px) {
-  html {
-    font-size: 16px;
-  }
-}
 
 body {
   font-family: var(--body-font-family);
@@ -431,4 +426,40 @@ h5, .edu-h5 {
 
 h6, .edu-h6 {
   font-size: var(--heading-6);
+}
+
+.edu-container, [class*=edu-container-] {
+  width: var(--container-default);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 553px) {
+  .edu-container-sm {
+    max-width: var(--container-sm);
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .edu-container-md {
+    max-width: var(--container-md);
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .edu-container-lg {
+    max-width: var(--container-lg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .edu-container-xl {
+    max-width: var(--container-xl);
+  }
+}
+
+.edu-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
 }

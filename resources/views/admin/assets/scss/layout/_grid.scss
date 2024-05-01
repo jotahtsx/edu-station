@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as *;
+@use "breakpoints" as *;
+
+.edu-container, [class*="edu-container-"] {
+  width: var(--container-default);
+  margin: 0 auto;
+}
+
+@each $size, $value in $containers {
+  .edu-container-#{$size} {
+    @include respond(#{$size}) {
+      max-width: $value;
+    }
+  }
+}
+
+.edu-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$default-gutter;
+  margin-right: -$default-gutter;
+}

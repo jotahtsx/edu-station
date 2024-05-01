@@ -5,9 +5,6 @@ html {
   box-sizing: border-box;
   height: 100%;
   font-size: var(--base-font-size);
-  @include respond(sm) {
-    font-size: 16px;
-  };
 }
 
 body {
