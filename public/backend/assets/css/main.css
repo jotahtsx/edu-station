@@ -366,6 +366,11 @@ html {
   height: 100%;
   font-size: var(--base-font-size);
 }
+@media screen and (min-width: 553px) {
+  html {
+    font-size: 16px;
+  }
+}
 
 body {
   font-family: var(--body-font-family);
@@ -389,4 +394,41 @@ img {
 
 a, i, span {
   display: inline-block;
+}
+
+h1, .edu-h1,
+h2, .edu-h2,
+h3, .edu-h3,
+h4, .edu-h4,
+h5, .edu-h5,
+h6, .edu-h6 {
+  font-family: var(--heading-font-family);
+  color: inherit;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--heading-line-height);
+  margin: 0;
+}
+
+h1, .edu-h1 {
+  font-size: var(--heading-1);
+}
+
+h2, .edu-h2 {
+  font-size: var(--heading-2);
+}
+
+h3, .edu-h3 {
+  font-size: var(--heading-3);
+}
+
+h4, .edu-h4 {
+  font-size: var(--heading-4);
+}
+
+h5, .edu-h5 {
+  font-size: var(--heading-5);
+}
+
+h6, .edu-h6 {
+  font-size: var(--heading-6);
 }
