@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
 @use "breakpoints" as *;
 
 .edu-container, [class*="edu-container-"] {
@@ -19,4 +20,27 @@
   flex-wrap: wrap;
   margin-left: -$default-gutter;
   margin-right: -$default-gutter;
+
+  > [class*=edu-flex-] {
+    width: 100%;
+    max-width: 100%;
+    padding-right: $default-gutter;
+    padding-left: $default-gutter;
+  }
+
+  @for $i from 1 through $total-cols {
+    .edu-flex-#{$i} {
+      @include grid($total-cols, $i);
+    }
+  }
+
+  @each $break, $value in $containers {
+    @include respond(#{$break}){
+      @for $i from 1 through $total-cols {
+        .edu-flex-#{$break}-#{$i} {
+          @include grid($total-cols, $i);
+        }
+      }
+    }
+  }
 }

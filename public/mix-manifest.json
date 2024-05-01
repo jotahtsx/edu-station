@@ -1,9 +1,9 @@
 {
     "/backend/assets/css/login.css": "/backend/assets/css/login.css?id=e864fd043e79572932e8010f179301dd",
-    "/backend/assets/css/main.css": "/backend/assets/css/main.css?id=89807df934245ab48a02c8e0539cb471",
     "/backend/assets/js/jquery.js": "/backend/assets/js/jquery.js?id=2c872dbe60f4ba70fb85356113d8b35e",
     "/backend/assets/js/login.js": "/backend/assets/js/login.js?id=d41d8cd98f00b204e9800998ecf8427e",
     "/backend/assets/js/app.js": "/backend/assets/js/app.js?id=d41d8cd98f00b204e9800998ecf8427e",
     "/backend/assets/images/login-image.svg": "/backend/assets/images/login-image.svg?id=b5a5521918a577ed5a357fa914f58d35",
-    "/backend/assets/images/logo.svg": "/backend/assets/images/logo.svg?id=5a34a4c8ef37ef77024548950b8e3fe0"
+    "/backend/assets/images/logo.svg": "/backend/assets/images/logo.svg?id=5a34a4c8ef37ef77024548950b8e3fe0",
+    "/backend/assets/css/main.css": "/backend/assets/css/main.css?id=5a53938359572b3f240611074ce45165"
 }
