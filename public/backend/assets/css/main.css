@@ -428,6 +428,58 @@ h6, .edu-h6 {
   font-size: var(--heading-6);
 }
 
+.edu-overflow-auto {
+  overflow: auto "";
+}
+
+.edu-overflow-visible {
+  overflow: visible "";
+}
+
+.edu-overflow-hidden {
+  overflow: hidden "";
+}
+
+.edu-mg-y-0 {
+  margin-top: var(--spacing-0) !important;
+  margin-bottom: var(--spacing-0) !important;
+}
+
+.edu-mg-y-8 {
+  margin-top: var(--spacing-xs) !important;
+  margin-bottom: var(--spacing-xs) !important;
+}
+
+.edu-mg-y-10 {
+  margin-top: var(--spacing-sm) !important;
+  margin-bottom: var(--spacing-sm) !important;
+}
+
+.edu-mg-y-12 {
+  margin-top: var(--spacing-md) !important;
+  margin-bottom: var(--spacing-md) !important;
+}
+
+.edu-mg-y-14 {
+  margin-top: var(--spacing-lg) !important;
+  margin-bottom: var(--spacing-lg) !important;
+}
+
+.edu-mg-y-16 {
+  margin-top: var(--spacing-xl) !important;
+  margin-bottom: var(--spacing-xl) !important;
+}
+
+.edu-mg-y-18 {
+  margin-top: var(--spacing-18) !important;
+  margin-bottom: var(--spacing-18) !important;
+}
+
+.edu-mg-y-20 {
+  margin-top: var(--spacing-20) !important;
+  margin-bottom: var(--spacing-20) !important;
+}
+
 .edu-container, [class*=edu-container-] {
   width: var(--container-default);
   margin: 0 auto;

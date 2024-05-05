@@ -47,6 +47,8 @@
         <div class="edu-offset-2" style="border: 1px solid blue; padding: 10px 20px;">Olá offset 2</div>
         <div class="edu-offset-12" style="border: 1px solid blue; padding: 10px 20px;">Olá offset 12</div>
 
+        <div class="edu-mg-x-2 edu-overflow-hidden-vh"></div>
+
     </div>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
