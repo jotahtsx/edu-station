@@ -1,9 +1,0 @@
-@use "sass:map";
-@use "../abstracts/variables" as *;
-
-@mixin respond($breapoint) {
-  @media screen and (min-width: map.get($breakpoints-up, $breapoint)) {
-    @content;
-  }
-}
-
