@@ -20,17 +20,22 @@
 
 <body>
 
-    <p class="edu-h1">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s
-    </p>
+    <div class="edu-container">
 
-    <h1>Título 1</h1>
-    <h2>Título 2</h2>
-    <h3>Título 3</h3>
-    <h4>Título 4</h4>
-    <h5>Título 5</h5>
-    <h6>Título 6</h6>
+        <p class="edu-h1">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s
+        </p>
+
+        <h1>Título 1</h1>
+        <h2>Título 2</h2>
+        <h3>Título 3</h3>
+        <h4>Título 4</h4>
+        <h5>Título 5</h5>
+        <h6>Título 6</h6>
+
+    </div>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
     <script src="{{ url(mix('backend/assets/js/app.js')) }}"></script>

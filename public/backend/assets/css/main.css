@@ -426,3 +426,33 @@ h5, .edu-h5 {
 h6, .edu-h6 {
   font-size: var(--heading-6);
 }
+
+/**** LAYOUT E GRID *****/
+.edu-container, [class*=edu-container-] {
+  width: var(--container-default);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 553px) {
+  .edu-container-sm {
+    max-width: var(--container-sm);
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .edu-container-md {
+    max-width: var(--container-md);
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .edu-container-lg {
+    max-width: var(--container-lg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .edu-container-xl {
+    max-width: var(--container-xl);
+  }
+}
