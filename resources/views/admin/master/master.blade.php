@@ -20,9 +20,11 @@
 
 <body>
 
-    <div class="edu-container">
+    <div class="edu-container" style="border:2px dashed green;">
 
-        <p class="edu-h1">
+        <h1>Olá, mundo cruel!</h1>
+
+        <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's
             standard dummy text ever since the 1500s
@@ -34,6 +36,13 @@
         <h4>Título 4</h4>
         <h5>Título 5</h5>
         <h6>Título 6</h6>
+
+        <div class="edu-row">
+            <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">1</div>
+            <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">2</div>
+            <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">3</div>
+            <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">4</div>
+        </div>
 
     </div>
 
