@@ -37,11 +37,15 @@
         <h5>Título 5</h5>
         <h6>Título 6</h6>
 
-        <div class="edu-row">
+        <div class="edu-row" style="margin-bottom:20px;">
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">1</div>
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">2</div>
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">3</div>
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">4</div>
+        </div>
+
+        <div class="edu-offset-2" style="border: 1px solid blue; padding: 10px 20px;">
+            Olá, novamente, mundo cruel!
         </div>
 
     </div>
