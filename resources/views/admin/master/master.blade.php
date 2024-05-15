@@ -42,10 +42,18 @@
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">2</div>
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">3</div>
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">4</div>
+            <div class="edu-flex-10" style="border: 1px solid red;">10</div>
+            <div class="edu-offset-2 edu-flex-6" style="border: 1px solid blue; padding: 10px 20px;">
+                Olá, novamente, mundo cruel!
+            </div>
         </div>
 
         <div class="edu-offset-2" style="border: 1px solid blue; padding: 10px 20px;">
             Olá, novamente, mundo cruel!
+        </div>
+
+        <div class="edu-offset-12" style="border: 1px solid blue; padding: 10px 20px;">
+            Olá, novamente, mundo cruel com 12 colunas!
         </div>
 
     </div>

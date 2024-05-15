@@ -49,16 +49,7 @@
   }
 }
 
-@for $i from 1 through $total-cols {
-  .edu-offset-#{$i} {
-    @if $i == $total-cols {
-      margin-left: 0;
-      flex: 0 0 100%;
-      max-width: 100%;
-    } @else {
-      margin-left: calc(100% / (#{$total-cols} / #{$i}));
-      flex: 0 0 calc(100% / ((#{total-cols} - #{$i}) / #{$total-cols}));
-      max-width: calc(100% / ((#{total-cols} - #{$i}) / #{$total-cols}));
-    }
-  }
-}
+//Offset Colunas - Não responsivas
+@include offset-grid($total-cols, false);
+//Offset Colunas - Responsivas
+@include offset-grid($total-cols, true);
