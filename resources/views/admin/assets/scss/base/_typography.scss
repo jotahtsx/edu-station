@@ -1,5 +1,6 @@
 // Abstracts
-@forward "../abstracts/variables";
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
 
 h1, .edu-h1,
 h2, .edu-h2,

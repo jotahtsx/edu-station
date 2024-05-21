@@ -38,24 +38,25 @@
         <h6>Título 6</h6>
 
         <div class="edu-row" style="margin-bottom:20px;">
-            <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">1</div>
-            <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">2</div>
+            <div class="edu-flex-6 edu-flex-md-3 edu-mg-b-20 edu-mg-b-0-md" style="border: 1px solid red;">1</div>
+            <div class="edu-flex-6 edu-flex-md-3 edu-mg-b-20 edu-mg-b-0-md" style="border: 1px solid red;">2</div>
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">3</div>
             <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">4</div>
             <div class="edu-flex-10" style="border: 1px solid red;">10</div>
             <div class="edu-offset-2 edu-flex-6" style="border: 1px solid blue; padding: 10px 20px;">
-                Olá, novamente, mundo cruel!
+                teste
             </div>
         </div>
 
         <div class="edu-offset-2" style="border: 1px solid blue; padding: 10px 20px;">
-            Olá, novamente, mundo cruel!
+            teste
         </div>
 
         <div class="edu-offset-12" style="border: 1px solid blue; padding: 10px 20px;">
-            Olá, novamente, mundo cruel com 12 colunas!
+            teste
         </div>
 
+        <div class="edu-mg-x-2 edu-overflow-hidden-vh">teste</div>
     </div>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
