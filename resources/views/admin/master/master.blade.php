@@ -57,6 +57,22 @@
         </div>
 
         <div class="edu-mg-x-2 edu-overflow-hidden-vh">teste</div>
+
+        <div class="edu-mg-y-20">
+            <a href="" class="edu-btn">Sair</a>
+            <a href="" class="edu-btn edu-btn-primary">Primário</a>
+            <a href="" class="edu-btn edu-btn-secondary">Secundário</a>
+            <a href="" class="edu-btn edu-btn-success">Success</a>
+            <a href="" class="edu-btn edu-btn-warn">Warn</a>
+            <a href="" class="edu-btn edu-btn-danger">Danger</a>
+
+            <button class="edu-btn edu-btn-primary edu-btn-sm">
+                <i class="ri-arrow-up-line edu-mg-r-10"></i>
+                Export
+            </button>
+        </div>
+
+
     </div>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
