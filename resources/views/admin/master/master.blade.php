@@ -70,6 +70,12 @@
                 <i class="ri-arrow-up-line edu-mg-r-10"></i>
                 Export
             </button>
+
+            <button class="edu-btn edu-btn-primary edu-btn-sq">
+                <i class="ri-arrow-up-line"></i>
+            </button>
+
+            <a href="" class="edu-btn edu-btn-link edu-btn-secondary">Link de Botão</a>
         </div>
 
 

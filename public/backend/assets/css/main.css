@@ -4201,4 +4201,64 @@ h6, .edu-h6 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: all 0.3s 0s ease-out;
+  background-color: var(--btn-default-bg-clr);
+  color: var(--btn-default-text-clr);
+}
+.edu-btn:hover {
+  background-color: var(--edu-primary-600-clr);
+}
+.edu-btn.edu-btn-primary {
+  background-color: var(--btn-primary-bg-clr);
+  color: var(--btn-primary-text-clr);
+}
+.edu-btn.edu-btn-primary:hover {
+  background-color: var(--edu-primary-300-clr);
+}
+.edu-btn.edu-btn-secondary {
+  background-color: var(--btn-secondary-bg-clr);
+  color: var(--btn-secondary-text-clr);
+}
+.edu-btn.edu-btn-secondary:hover {
+  background-color: var(--edu-secondary-300-clr);
+}
+.edu-btn.edu-btn-success {
+  background-color: var(--btn-success-bg-clr);
+  color: var(--btn-success-text-clr);
+}
+.edu-btn.edu-btn-success:hover {
+  background-color: var(--edu-success-300-clr);
+}
+.edu-btn.edu-btn-warn {
+  background-color: var(--btn-warn-bg-clr);
+  color: var(--btn-warn-text-clr);
+}
+.edu-btn.edu-btn-warn:hover {
+  background-color: var(--edu-warn-300-clr);
+}
+.edu-btn.edu-btn-danger {
+  background-color: var(--btn-danger-bg-clr);
+  color: var(--btn-danger-text-clr);
+}
+.edu-btn.edu-btn-danger:hover {
+  background-color: var(--edu-danger-300-clr);
+}
+.edu-btn:hover {
+  background-color: var(--edu-primary-600-clr);
+}
+.edu-btn.edu-btn-sm, .edu-btn.edu-btn-sq {
+  padding: var(--default-btn-sm-padding);
+  font-size: var(--sm-btn-size);
+}
+.edu-btn.edu-btn-sq {
+  width: calc(2rem + var(--btn-size));
+}
+.edu-btn.edu-btn-link {
+  padding: 0;
+  text-decoration: underline;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.edu-btn.edu-btn-link:hover {
+  background-color: transparent;
 }

@@ -11,4 +11,49 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  @include transition;
+
+  //Gerando diferentes estilos
+  @each $current-style in $buttons {
+    @if $current-style == default {
+      background-color: var(--btn-#{$current-style}-bg-clr);
+      color: var(--btn-#{$current-style}-text-clr);
+      &:hover {
+        background-color: var(--edu-primary-600-clr);
+      }
+    }@else {
+      &.edu-btn-#{$current-style} {
+        background-color: var(--btn-#{$current-style}-bg-clr);
+        color: var(--btn-#{$current-style}-text-clr);
+
+        &:hover {
+          background-color: var(--edu-#{$current-style}-300-clr);
+        }
+      }
+    }
+  }
+
+  &:hover {
+    background-color: var(--edu-primary-600-clr);
+  }
+
+  &.edu-btn-sm, &.edu-btn-sq  {
+    padding: var(--default-btn-sm-padding);
+    font-size: var(--sm-btn-size);	
+  }
+
+  &.edu-btn-sq {
+    width: calc(2rem + var(--btn-size));
+  }
+
+  &.edu-btn-link {
+    padding: 0;
+    text-decoration: underline;
+    background-color: transparent;
+    text-transform: uppercase;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
 }
