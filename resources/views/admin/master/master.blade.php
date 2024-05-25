@@ -76,6 +76,13 @@
             </button>
 
             <a href="" class="edu-btn edu-btn-link edu-btn-secondary">Link de Botão</a>
+
+            <div class="edu-mg-y-20">
+                <div class="edu-bdg edu-bdg-success">Completo</div>
+                <div class="edu-bdg edu-bdg-secondary">Em progresso</div>
+                <div class="edu-bdg edu-bdg-warn">Pendente</div>
+                <div class="edu-bdg edu-bdg-danger">Cancelado</div>
+            </div>
         </div>
 
 

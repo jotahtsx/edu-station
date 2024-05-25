@@ -4262,3 +4262,28 @@ h6, .edu-h6 {
 .edu-btn.edu-btn-link:hover {
   background-color: transparent;
 }
+
+.edu-bdg {
+  border: 0;
+  border-radius: var(--default-brd-rad);
+  padding: var(--default-bdg-padding);
+  font-size: var(--bdg-size);
+  text-align: center;
+  display: inline-block;
+}
+.edu-bdg.edu-bdg-secondary {
+  background-color: var(--bdg-secondary-bg-clr);
+  color: var(--bdg-secondary-text-clr);
+}
+.edu-bdg.edu-bdg-success {
+  background-color: var(--bdg-success-bg-clr);
+  color: var(--bdg-success-text-clr);
+}
+.edu-bdg.edu-bdg-warn {
+  background-color: var(--bdg-warn-bg-clr);
+  color: var(--bdg-warn-text-clr);
+}
+.edu-bdg.edu-bdg-danger {
+  background-color: var(--bdg-danger-bg-clr);
+  color: var(--bdg-danger-text-clr);
+}
