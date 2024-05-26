@@ -4328,3 +4328,25 @@ h6, .edu-h6 {
   border: 0.2rem solid var(--global-bg-clr);
   margin-left: -0.8rem;
 }
+
+.edu-card {
+  position: relative;
+  background-color: var(--card-bg-clr);
+  border-radius: var(--default-brd-rad);
+  height: 100%;
+  box-shadow: 0 0 0.15rem rgba(0, 0, 0, 0.14);
+}
+.edu-card__header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid var(--brdr-clr);
+}
+.edu-card__title {
+  font-size: var(--card-title);
+  font-family: var(--heading-font-family);
+}
+.edu-card__body {
+  padding: 2rem;
+}

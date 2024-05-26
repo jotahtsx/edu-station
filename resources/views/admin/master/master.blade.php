@@ -52,23 +52,26 @@
             teste
         </div>
 
+        <!--Buttons-->
         <div class="edu-offset-12" style="border: 1px solid blue; padding: 10px 20px;">
             teste
         </div>
 
+        <!--Badges-->
         <div class="edu-mg-x-2 edu-overflow-hidden-vh">teste</div>
 
+        <!--Avatars-->
         <div class="edu-mg-y-20">
             <a href="" class="edu-btn">Sair</a>
             <a href="" class="edu-btn edu-btn-primary">Primário</a>
             <a href="" class="edu-btn edu-btn-secondary">Secundário</a>
-            <a href="" class="edu-btn edu-btn-success">Success</a>
-            <a href="" class="edu-btn edu-btn-warn">Warn</a>
-            <a href="" class="edu-btn edu-btn-danger">Danger</a>
+            <a href="" class="edu-btn edu-btn-success">Sucesso</a>
+            <a href="" class="edu-btn edu-btn-warn">Aviso</a>
+            <a href="" class="edu-btn edu-btn-danger">Perigo</a>
 
             <button class="edu-btn edu-btn-primary edu-btn-sm">
                 <i class="ri-arrow-up-line edu-mg-r-10"></i>
-                Export
+                Exportar
             </button>
 
             <button class="edu-btn edu-btn-primary edu-btn-sq">
@@ -128,6 +131,22 @@
                             title="" class="edu-avat__img" />
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!--Cards-->
+        <div class="edu-card">
+            <div class="edu-card__header">
+                <span class="edu-card__title edu-fw-bld">Projetos ativos</span>
+                <span>
+                    <i class="ri-arrow-up-line"></i>
+                </span>
+            </div>
+
+            <div class="edu-card__body">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                </p>
             </div>
         </div>
 
