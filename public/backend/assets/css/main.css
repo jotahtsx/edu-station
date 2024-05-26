@@ -4287,3 +4287,44 @@ h6, .edu-h6 {
   background-color: var(--bdg-danger-bg-clr);
   color: var(--bdg-danger-text-clr);
 }
+
+.edu-avat {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.edu-avat__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.edu-avat.edu-avat-30 {
+  width: 3rem;
+  height: 3rem;
+}
+.edu-avat.edu-avat-35 {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.edu-avat.edu-avat-40 {
+  width: 4rem;
+  height: 4rem;
+}
+.edu-avat.edu-avat-45 {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.edu-avat.edu-avat-50 {
+  width: 5rem;
+  height: 5rem;
+}
+.edu-avat-group {
+  display: flex;
+  align-items: center;
+}
+.edu-avat-group .edu-avat:not(:first-of-type) {
+  border: 0.2rem solid var(--global-bg-clr);
+  margin-left: -0.8rem;
+}

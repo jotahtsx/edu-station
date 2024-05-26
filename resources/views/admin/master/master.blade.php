@@ -83,6 +83,52 @@
                 <div class="edu-bdg edu-bdg-warn">Pendente</div>
                 <div class="edu-bdg edu-bdg-danger">Cancelado</div>
             </div>
+
+            <div class="edu-mg-y-20">
+                <div class="edu-avat edu-avat-30">
+                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                        class="edu-avat__img" />
+                </div>
+                <div class="edu-avat edu-avat-35">
+                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                        class="edu-avat__img" />
+                </div>
+                <div class="edu-avat edu-avat-40">
+                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                        class="edu-avat__img" />
+                </div>
+                <div class="edu-avat edu-avat-45">
+                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                        class="edu-avat__img" />
+                </div>
+                <div class="edu-avat edu-avat-50">
+                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                        class="edu-avat__img" />
+                </div>
+
+                <div class="edu-avat-group">
+                    <div class="edu-avat edu-avat-30">
+                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                            class="edu-avat__img" />
+                    </div>
+                    <div class="edu-avat edu-avat-30">
+                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                            class="edu-avat__img" />
+                    </div>
+                    <div class="edu-avat edu-avat-30">
+                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt=""
+                            title="" class="edu-avat__img" />
+                    </div>
+                    <div class="edu-avat edu-avat-30">
+                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt=""
+                            title="" class="edu-avat__img" />
+                    </div>
+                    <div class="edu-avat edu-avat-30">
+                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt=""
+                            title="" class="edu-avat__img" />
+                    </div>
+                </div>
+            </div>
         </div>
 
 
