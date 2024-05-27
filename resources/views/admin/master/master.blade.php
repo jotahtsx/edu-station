@@ -135,22 +135,20 @@
         </div>
 
         <!--Cards-->
-        <div class="edu-card">
+        <div class="edu-card edu-mg-y-20">
             <div class="edu-card__header">
                 <span class="edu-card__title edu-fw-bld">Projetos ativos</span>
                 <span>
                     <i class="ri-arrow-up-line"></i>
                 </span>
             </div>
-
             <div class="edu-card__body">
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                    deleniti atque corrupti
                 </p>
             </div>
         </div>
-
-
     </div>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>

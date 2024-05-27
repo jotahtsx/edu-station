@@ -104,7 +104,7 @@
   /* ************** TIPOGRAFIA ************** */
   --base-font-size: 62.5%;
   --heading-font-family: "Raleway", sans-serif;
-  --body-font-family: "Poppins", sans-serif;
+  --body-font-family: "Raleway", sans-serif;
   --heading-1: 2.8rem;
   --heading-2: 2.4rem;
   --heading-3: 2rem;
@@ -4346,6 +4346,7 @@ h6, .edu-h6 {
 .edu-card__title {
   font-size: var(--card-title);
   font-family: var(--heading-font-family);
+  width: 100%;
 }
 .edu-card__body {
   padding: 2rem;
