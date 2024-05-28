@@ -147,6 +147,19 @@
                 </p>
             </div>
         </div>
+
+        <div class="edu-card edu-mg-y-20">
+            <div class="edu-card__header">
+                <!--Forms-->
+                <div class="edu-form">
+                    <div class="edu-form__group">
+                        <input type="text" class="edu-form__input" placeholder="Buscar" />
+                        <i class="ri-search-line edu-form__icon edu-fs-14"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
