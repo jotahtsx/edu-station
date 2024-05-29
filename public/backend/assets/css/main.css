@@ -4377,3 +4377,27 @@ h6, .edu-h6 {
   left: 2rem;
   transform: translateY(-50%);
 }
+
+.edu-tbl {
+  width: 100%;
+  overflow: hidden;
+  border-collapse: collapse;
+  border: 0.1rem solid var(--brdr-clr);
+}
+.edu-tbl__header {
+  background-color: var(--tbl-header-bg-clr);
+}
+.edu-tbl__head {
+  font-weight: var(--font-weight-bold);
+  font-family: var(--heading-font-family);
+  font-size: 1.4rem;
+}
+.edu-tbl__row:not(:last-of-type) {
+  border-bottom: 0.1rem solid var(--brdr-clr);
+}
+.edu-tbl__head, .edu-tbl__data {
+  padding: 1.6rem;
+  text-align: center;
+  text-align: left;
+  white-space: nowrap;
+}

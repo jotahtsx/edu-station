@@ -148,9 +148,9 @@
             </div>
         </div>
 
+        <!--Forms-->
         <div class="edu-card edu-mg-y-20">
             <div class="edu-card__header">
-                <!--Forms-->
                 <div class="edu-form">
                     <div class="edu-form__group">
                         <input type="text" class="edu-form__input" placeholder="Buscar" />
@@ -160,6 +160,39 @@
             </div>
         </div>
 
+        <!--tables-->
+        <div class="edu-overflow-auto edu-mg-y-20">
+            <table class="edu-tbl">
+                <thead class="edu-tbl__header">
+                    <tr class="edu-tbl__row">
+                        <th class="edu-tbl__head">Nome</th>
+                        <th class="edu-tbl__head">CPF</th>
+                        <th class="edu-tbl__head">Data de Nascimento</th>
+                        <th class="edu-tbl__head">Opções</th>
+                    </tr>
+                </thead>
+                <tbody class="edu-tbl__body">
+                    <tr class="edu-tbl__row">
+                        <td class="edu-tbl__data">Giacomo Guilizzani</td>
+                        <td class="edu-tbl__data">123.456.789-00</td>
+                        <td class="edu-tbl__data">12/12/1982</td>
+                        <td>
+                            <a href="" class="edu-btn edu-btn-warn">Editar</a>
+                            <a href="" class="edu-btn edu-btn-danger">Excluir</a>
+                        </td>
+                    </tr>
+                    <tr class="edu-tbl__row">
+                        <td class="edu-tbl__data">Giacomo Guilizzani</td>
+                        <td class="edu-tbl__data">123.456.789-00</td>
+                        <td class="edu-tbl__data">12/12/1982</td>
+                        <td>
+                            <a href="" class="edu-btn edu-btn-warn">Editar</a>
+                            <a href="" class="edu-btn edu-btn-danger">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
