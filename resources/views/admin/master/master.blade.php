@@ -165,27 +165,30 @@
             <table class="edu-tbl">
                 <thead class="edu-tbl__header">
                     <tr class="edu-tbl__row">
+                        <th class="edu-tbl__head">ID</th>
                         <th class="edu-tbl__head">Nome</th>
                         <th class="edu-tbl__head">CPF</th>
                         <th class="edu-tbl__head">Data de Nascimento</th>
-                        <th class="edu-tbl__head">Opções</th>
+                        <th class="edu-tbl__head">Ações de gerenciamento</th>
                     </tr>
                 </thead>
                 <tbody class="edu-tbl__body">
                     <tr class="edu-tbl__row">
+                        <td class="edu-tbl__data">#1</td>
                         <td class="edu-tbl__data">Giacomo Guilizzani</td>
                         <td class="edu-tbl__data">123.456.789-00</td>
                         <td class="edu-tbl__data">12/12/1982</td>
-                        <td>
+                        <td class="edu-tbl__data">
                             <a href="" class="edu-btn edu-btn-warn">Editar</a>
                             <a href="" class="edu-btn edu-btn-danger">Excluir</a>
                         </td>
                     </tr>
                     <tr class="edu-tbl__row">
-                        <td class="edu-tbl__data">Giacomo Guilizzani</td>
+                        <td class="edu-tbl__data">#1</td>
+                        <td class="edu-tbl__data">Marco Bottom</td>
                         <td class="edu-tbl__data">123.456.789-00</td>
                         <td class="edu-tbl__data">12/12/1982</td>
-                        <td>
+                        <td class="edu-tbl__data">
                             <a href="" class="edu-btn edu-btn-warn">Editar</a>
                             <a href="" class="edu-btn edu-btn-danger">Excluir</a>
                         </td>

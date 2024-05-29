@@ -10,6 +10,7 @@
 
   &__header {
     background-color: var(--tbl-header-bg-clr);
+
   }
   
   &__head {
@@ -25,7 +26,6 @@
   &__head, &__data {
     padding: 1.6rem;
     text-align: center;
-    text-align: left;
     white-space: nowrap;
   }
 }
