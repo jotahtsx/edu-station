@@ -9,7 +9,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <!-- Estilo principal -->
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/icons.css')) }}">
@@ -160,42 +161,120 @@
             </div>
         </div>
 
-        <!--tables-->
-        <div class="edu-overflow-auto edu-mg-y-20">
-            <table class="edu-tbl">
-                <thead class="edu-tbl__header">
-                    <tr class="edu-tbl__row">
-                        <th class="edu-tbl__head">ID</th>
-                        <th class="edu-tbl__head">Nome</th>
-                        <th class="edu-tbl__head">CPF</th>
-                        <th class="edu-tbl__head">Data de Nascimento</th>
-                        <th class="edu-tbl__head">Ações de gerenciamento</th>
-                    </tr>
-                </thead>
-                <tbody class="edu-tbl__body">
-                    <tr class="edu-tbl__row">
-                        <td class="edu-tbl__data">#1</td>
-                        <td class="edu-tbl__data">Giacomo Guilizzani</td>
-                        <td class="edu-tbl__data">123.456.789-00</td>
-                        <td class="edu-tbl__data">12/12/1982</td>
-                        <td class="edu-tbl__data">
-                            <a href="" class="edu-btn edu-btn-warn">Editar</a>
-                            <a href="" class="edu-btn edu-btn-danger">Excluir</a>
-                        </td>
-                    </tr>
-                    <tr class="edu-tbl__row">
-                        <td class="edu-tbl__data">#1</td>
-                        <td class="edu-tbl__data">Marco Bottom</td>
-                        <td class="edu-tbl__data">123.456.789-00</td>
-                        <td class="edu-tbl__data">12/12/1982</td>
-                        <td class="edu-tbl__data">
-                            <a href="" class="edu-btn edu-btn-warn">Editar</a>
-                            <a href="" class="edu-btn edu-btn-danger">Excluir</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <!--table-->
+        <div class="edu-mg-y-20">
+            <div class="edu-overflow-auto">
+                <table class="edu-tbl">
+                    <thead class="edu-tbl__header">
+                        <tr class="edu-tbl__row">
+                            <th class="edu-tbl__head">ID</th>
+                            <th class="edu-tbl__head">Nome</th>
+                            <th class="edu-tbl__head">CPF</th>
+                            <th class="edu-tbl__head">Data de Nascimento</th>
+                            <th class="edu-tbl__head">Opções</th>
+                        </tr>
+                    </thead>
+                    <tbody class="edu-tbl__body">
+                        <tr class="edu-tbl__row">
+                            <td class="edu-tbl__data">#1</td>
+                            <td class="edu-tbl__data">Giacomo Guilizzani</td>
+                            <td class="edu-tbl__data">123.456.789-00</td>
+                            <td class="edu-tbl__data">12/12/1982</td>
+                            <td class="edu-tbl__data">
+                                <a href="" class="edu-btn edu-btn-warn">Editar</a>
+                                <a href="" class="edu-btn edu-btn-danger">Excluir</a>
+                            </td>
+                        </tr>
+                        <tr class="edu-tbl__row">
+                            <td class="edu-tbl__data">#1</td>
+                            <td class="edu-tbl__data">Marco Bottom</td>
+                            <td class="edu-tbl__data">123.456.789-00</td>
+                            <td class="edu-tbl__data">12/12/1982</td>
+                            <td class="edu-tbl__data">
+                                <a href="" class="edu-btn edu-btn-warn">Editar</a>
+                                <a href="" class="edu-btn edu-btn-danger">Excluir</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="edu-card edu-mg-y-20">
+                <div class="edu-card__header">
+                    <span class="edu-card__title edu-fw-bld">Direção</span>
+                    <span>
+                        <i class="ri-arrow-up-line"></i>
+                    </span>
+                </div>
+                <div class="edu-card__body">
+                    <div class="edu-overflow-auto">
+                        <table class="edu-tbl">
+                            <thead class="edu-tbl__header">
+                                <tr class="edu-tbl__row">
+                                    <th class="edu-tbl__head">ID</th>
+                                    <th class="edu-tbl__head">Nome</th>
+                                    <th class="edu-tbl__head">CPF</th>
+                                    <th class="edu-tbl__head">Data de Nascimento</th>
+                                    <th class="edu-tbl__head">Opções</th>
+                                </tr>
+                            </thead>
+                            <tbody class="edu-tbl__body">
+                                <tr class="edu-tbl__row">
+                                    <td class="edu-tbl__data">#1</td>
+                                    <td class="edu-tbl__data">Giacomo Guilizzani</td>
+                                    <td class="edu-tbl__data">123.456.789-00</td>
+                                    <td class="edu-tbl__data">12/12/1982</td>
+                                    <td class="edu-tbl__data">
+                                        <a href="" class="edu-btn edu-btn-warn">Editar</a>
+                                        <a href="" class="edu-btn edu-btn-danger">Excluir</a>
+                                    </td>
+                                </tr>
+                                <tr class="edu-tbl__row">
+                                    <td class="edu-tbl__data">#1</td>
+                                    <td class="edu-tbl__data">Marco Bottom</td>
+                                    <td class="edu-tbl__data">123.456.789-00</td>
+                                    <td class="edu-tbl__data">12/12/1982</td>
+                                    <td class="edu-tbl__data">
+                                        <a href="" class="edu-btn edu-btn-warn">Editar</a>
+                                        <a href="" class="edu-btn edu-btn-danger">Excluir</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!--dropdown-->
+        <div class="edu-mg-y-20">
+            <div class="edu-dropdown edu-dropdown-abs-center edu-d-in-block">
+                <div class="edu-avat edu-avat-30" data-dropdown-target="notifications">
+                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                        class="edu-avat__img" />
+                </div>
+                <div class="edu-dropdown__menu" id="notifications">
+                    <div class="edu-fs-16 edu-fw-med edu-pd-20">
+                        Notificações
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="edu-dropdown edu-dropdown-abs-left edu-dropdown-abs-center-md edu-dropdown-right-lg edu-d-in-block">
+                <div class="edu-avat edu-avat-40" data-dropdown-target="message">
+                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
+                        class="edu-avat__img" />
+                </div>
+                <div class="edu-dropdown__menu" id="message">
+                    <div class="edu-fs-16 edu-fw-med edu-pd-20">
+                        Mensagens
+                    </div>
+                    <p class="edu-pd-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
