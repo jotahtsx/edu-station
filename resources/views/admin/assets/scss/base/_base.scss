@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
 @use "../layout/breakpoints" as *;
 
 html {
@@ -28,4 +29,9 @@ img {
 
 a, i, span {
   display: inline-block;
+}
+
+a {
+  color: var(--global-text-clr);
+  @include transition;
 }

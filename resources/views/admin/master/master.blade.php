@@ -19,263 +19,101 @@
 
 <body>
 
-    <div class="edu-container" style="border:2px dashed green;">
+    <header class="edu-header edu-header-fixed edu-d-flex edu-justify-between edu-align-center">
+        <div class="edu-container">
+            <div class="edu-offset-12 edu-offset-md-3 edu-offset-lg-2">
+                <nav class="edu-header__nav edu-d-flex edu-justify-between edu-align-center">
 
-        <h1>Olá, mundo cruel!</h1>
+                    <div class="edu-header__left edu-d-flex edu-align-center edu-mg-r-10 edu-mg-r-0-md">
 
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
-            standard dummy text ever since the 1500s
-        </p>
+                        <div class="edu-header__mobile edu-mg-r-10 edu-d-none-md">
+                            <button type="button" class="edu-icon-btn edu-header__mobile--trigger"
+                                data-menu-target="main-menu">
+                                <i class="ri-menu-2-line edu-fs-16"></i>
+                            </button>
+                        </div>
+                        <div class="edu-header__form">
+                            <form class="edu-form">
+                                <div class="edu-form__group">
+                                    <input type="text" class="edu-form__input" placeholder="Pesquisar" />
+                                    <i class="ri-search-line edu-form__icon"></i>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
 
-        <h1>Título 1</h1>
-        <h2>Título 2</h2>
-        <h3>Título 3</h3>
-        <h4>Título 4</h4>
-        <h5>Título 5</h5>
-        <h6>Título 6</h6>
+                    <ul class="edu-header__navitems edu-header__sidebar-md-3 edu-header__sidebar-lg-2 edu-pd-y-20"
+                        id="main-menu"></ul>
 
-        <div class="edu-row" style="margin-bottom:20px;">
-            <div class="edu-flex-6 edu-flex-md-3 edu-mg-b-20 edu-mg-b-0-md" style="border: 1px solid red;">1</div>
-            <div class="edu-flex-6 edu-flex-md-3 edu-mg-b-20 edu-mg-b-0-md" style="border: 1px solid red;">2</div>
-            <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">3</div>
-            <div class="edu-flex-6 edu-flex-md-3" style="border: 1px solid red;">4</div>
-            <div class="edu-flex-10" style="border: 1px solid red;">10</div>
-            <div class="edu-offset-2 edu-flex-6" style="border: 1px solid blue; padding: 10px 20px;">
-                teste
+                    <div class="edu-header__right edu-d-flex edu-align-center">
+                        <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-mg-r-10">
+                            <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-align-center">
+
+                                <div class="theme-control edu-mg-r-10">
+                                    <button type="button" class="theme-switcher edu-btn-icon"
+                                        data-current-theme="light">
+                                        <i class="ri-moon-line theme-dark"></i>
+                                        <i class="ri-sun-line theme-light"></i>
+                                    </button>
+                                </div>
+
+                                <button type="button" class="edu-avat edu-avat-35" data-dropdown-target="profile">
+                                    <img class="edu-avat__img"
+                                        src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt=""
+                                        title="" />
+                                </button>
+
+                                <div class="edu-dropdown__menu" id="profile">
+                                    <div class="dropdown-header edu-pd-20">
+                                        <div class="edu-d-flex edu-align-center">
+
+                                            <div class="user-img edu-mg-r-10">
+                                                <div class="edu-avat edu-avat-40">
+                                                    <img class="edu-avat__img"
+                                                        src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}"
+                                                        alt="" title="" />
+                                                </div>
+                                            </div>
+
+                                            <div class="user-details">
+                                                <span class="edu-fw-bld edu-fs-14 edu-d-block">Grazi Massafera</span>
+                                                <span class="edu-fs-12">Gerente de projetos</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <ul class="dropdown-content">
+                                        <li class="dropdown-list">
+                                            <a href="#"
+                                                class="dropdown-link edu-d-flex edu-align-center edu-pd-x-20 edu-pd-y-10">
+                                                <i class="ri-equalizer-line edu-fs-16 edu-mg-r-10"></i>
+                                                <span class="edu-fs-14 edu-fw-bld">
+                                                    Configurações
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="dropdown-footer">
+                                        <a href="#"
+                                            class="dropdown-link edu-d-flex edu-align-center edu-pd-x-20 edu-pd-y-10">
+                                            <i class="ri-logout-box-r-line edu-fs-18 edu-mg-r-10"></i>
+                                            <span class="edu-fs-14 edu-fw-bld">
+                                                Sair
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                </nav>
             </div>
         </div>
+    </header>
 
-        <div class="edu-offset-2" style="border: 1px solid blue; padding: 10px 20px;">
-            teste
-        </div>
+    <main>
 
-        <!--Buttons-->
-        <div class="edu-offset-12" style="border: 1px solid blue; padding: 10px 20px;">
-            teste
-        </div>
-
-        <!--Badges-->
-        <div class="edu-mg-x-2 edu-overflow-hidden-vh">teste</div>
-
-        <!--Avatars-->
-        <div class="edu-mg-y-20">
-            <a href="" class="edu-btn">Sair</a>
-            <a href="" class="edu-btn edu-btn-primary">Primário</a>
-            <a href="" class="edu-btn edu-btn-secondary">Secundário</a>
-            <a href="" class="edu-btn edu-btn-success">Sucesso</a>
-            <a href="" class="edu-btn edu-btn-warn">Aviso</a>
-            <a href="" class="edu-btn edu-btn-danger">Perigo</a>
-
-            <button class="edu-btn edu-btn-primary edu-btn-sm">
-                <i class="ri-arrow-up-line edu-mg-r-10"></i>
-                Exportar
-            </button>
-
-            <button class="edu-btn edu-btn-primary edu-btn-sq">
-                <i class="ri-arrow-up-line"></i>
-            </button>
-
-            <a href="" class="edu-btn edu-btn-link edu-btn-secondary">Link de Botão</a>
-
-            <div class="edu-mg-y-20">
-                <div class="edu-bdg edu-bdg-success">Completo</div>
-                <div class="edu-bdg edu-bdg-secondary">Em progresso</div>
-                <div class="edu-bdg edu-bdg-warn">Pendente</div>
-                <div class="edu-bdg edu-bdg-danger">Cancelado</div>
-            </div>
-
-            <div class="edu-mg-y-20">
-                <div class="edu-avat edu-avat-30">
-                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                        class="edu-avat__img" />
-                </div>
-                <div class="edu-avat edu-avat-35">
-                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                        class="edu-avat__img" />
-                </div>
-                <div class="edu-avat edu-avat-40">
-                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                        class="edu-avat__img" />
-                </div>
-                <div class="edu-avat edu-avat-45">
-                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                        class="edu-avat__img" />
-                </div>
-                <div class="edu-avat edu-avat-50">
-                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                        class="edu-avat__img" />
-                </div>
-
-                <div class="edu-avat-group">
-                    <div class="edu-avat edu-avat-30">
-                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                            class="edu-avat__img" />
-                    </div>
-                    <div class="edu-avat edu-avat-30">
-                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                            class="edu-avat__img" />
-                    </div>
-                    <div class="edu-avat edu-avat-30">
-                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt=""
-                            title="" class="edu-avat__img" />
-                    </div>
-                    <div class="edu-avat edu-avat-30">
-                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt=""
-                            title="" class="edu-avat__img" />
-                    </div>
-                    <div class="edu-avat edu-avat-30">
-                        <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt=""
-                            title="" class="edu-avat__img" />
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Cards-->
-        <div class="edu-card edu-mg-y-20">
-            <div class="edu-card__header">
-                <span class="edu-card__title edu-fw-bld">Projetos ativos</span>
-                <span>
-                    <i class="ri-arrow-up-line"></i>
-                </span>
-            </div>
-            <div class="edu-card__body">
-                <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                    deleniti atque corrupti
-                </p>
-            </div>
-        </div>
-
-        <!--Forms-->
-        <div class="edu-card edu-mg-y-20">
-            <div class="edu-card__header">
-                <div class="edu-form">
-                    <div class="edu-form__group">
-                        <input type="text" class="edu-form__input" placeholder="Buscar" />
-                        <i class="ri-search-line edu-form__icon edu-fs-14"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--table-->
-        <div class="edu-mg-y-20">
-            <div class="edu-overflow-auto">
-                <table class="edu-tbl">
-                    <thead class="edu-tbl__header">
-                        <tr class="edu-tbl__row">
-                            <th class="edu-tbl__head">ID</th>
-                            <th class="edu-tbl__head">Nome</th>
-                            <th class="edu-tbl__head">CPF</th>
-                            <th class="edu-tbl__head">Data de Nascimento</th>
-                            <th class="edu-tbl__head">Opções</th>
-                        </tr>
-                    </thead>
-                    <tbody class="edu-tbl__body">
-                        <tr class="edu-tbl__row">
-                            <td class="edu-tbl__data">#1</td>
-                            <td class="edu-tbl__data">Giacomo Guilizzani</td>
-                            <td class="edu-tbl__data">123.456.789-00</td>
-                            <td class="edu-tbl__data">12/12/1982</td>
-                            <td class="edu-tbl__data">
-                                <a href="" class="edu-btn edu-btn-warn">Editar</a>
-                                <a href="" class="edu-btn edu-btn-danger">Excluir</a>
-                            </td>
-                        </tr>
-                        <tr class="edu-tbl__row">
-                            <td class="edu-tbl__data">#1</td>
-                            <td class="edu-tbl__data">Marco Bottom</td>
-                            <td class="edu-tbl__data">123.456.789-00</td>
-                            <td class="edu-tbl__data">12/12/1982</td>
-                            <td class="edu-tbl__data">
-                                <a href="" class="edu-btn edu-btn-warn">Editar</a>
-                                <a href="" class="edu-btn edu-btn-danger">Excluir</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="edu-card edu-mg-y-20">
-                <div class="edu-card__header">
-                    <span class="edu-card__title edu-fw-bld">Direção</span>
-                    <span>
-                        <i class="ri-arrow-up-line"></i>
-                    </span>
-                </div>
-                <div class="edu-card__body">
-                    <div class="edu-overflow-auto">
-                        <table class="edu-tbl">
-                            <thead class="edu-tbl__header">
-                                <tr class="edu-tbl__row">
-                                    <th class="edu-tbl__head">ID</th>
-                                    <th class="edu-tbl__head">Nome</th>
-                                    <th class="edu-tbl__head">CPF</th>
-                                    <th class="edu-tbl__head">Data de Nascimento</th>
-                                    <th class="edu-tbl__head">Opções</th>
-                                </tr>
-                            </thead>
-                            <tbody class="edu-tbl__body">
-                                <tr class="edu-tbl__row">
-                                    <td class="edu-tbl__data">#1</td>
-                                    <td class="edu-tbl__data">Giacomo Guilizzani</td>
-                                    <td class="edu-tbl__data">123.456.789-00</td>
-                                    <td class="edu-tbl__data">12/12/1982</td>
-                                    <td class="edu-tbl__data">
-                                        <a href="" class="edu-btn edu-btn-warn">Editar</a>
-                                        <a href="" class="edu-btn edu-btn-danger">Excluir</a>
-                                    </td>
-                                </tr>
-                                <tr class="edu-tbl__row">
-                                    <td class="edu-tbl__data">#1</td>
-                                    <td class="edu-tbl__data">Marco Bottom</td>
-                                    <td class="edu-tbl__data">123.456.789-00</td>
-                                    <td class="edu-tbl__data">12/12/1982</td>
-                                    <td class="edu-tbl__data">
-                                        <a href="" class="edu-btn edu-btn-warn">Editar</a>
-                                        <a href="" class="edu-btn edu-btn-danger">Excluir</a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--dropdown-->
-        <div class="edu-mg-y-20">
-            <div class="edu-dropdown edu-dropdown-abs-center edu-d-in-block">
-                <div class="edu-avat edu-avat-30" data-dropdown-target="notifications">
-                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                        class="edu-avat__img" />
-                </div>
-                <div class="edu-dropdown__menu" id="notifications">
-                    <div class="edu-fs-16 edu-fw-med edu-pd-20">
-                        Notificações
-                    </div>
-                </div>
-            </div>
-
-            <div
-                class="edu-dropdown edu-dropdown-abs-left edu-dropdown-abs-center-md edu-dropdown-right-lg edu-d-in-block">
-                <div class="edu-avat edu-avat-40" data-dropdown-target="message">
-                    <img src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt="" title=""
-                        class="edu-avat__img" />
-                </div>
-                <div class="edu-dropdown__menu" id="message">
-                    <div class="edu-fs-16 edu-fw-med edu-pd-20">
-                        Mensagens
-                    </div>
-                    <p class="edu-pd-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    </main>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
     <script src="{{ url(mix('backend/assets/js/app.js')) }}"></script>

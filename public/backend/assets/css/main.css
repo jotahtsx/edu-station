@@ -101,6 +101,7 @@
   --btn-warn-text-clr: var(--edu-warn-clr);
   --btn-danger-bg-clr: var(--edu-danger-100-clr);
   --btn-danger-text-clr: var(--edu-danger-clr);
+  --btn-icon-hvr-bg: var(--edu-gray-clr);
   /* ************** TIPOGRAFIA ************** */
   --base-font-size: 62.5%;
   --heading-font-family: "Raleway", sans-serif;
@@ -147,6 +148,8 @@
   --default-input-padding: 0.9rem 3rem;
   --default-dropdown-width: 22.5rem;
   --default-dropdown-mx-height: 35rem;
+  --default-navbar-height: 6rem;
+  --default-sidebar-nav-width: 25rem;
 }
 
 /* ************** TIPOGRAFIA ************** */
@@ -389,6 +392,11 @@ img {
 
 a, i, span {
   display: inline-block;
+}
+
+a {
+  color: var(--global-text-clr);
+  transition: all 0.3s 0s ease-out;
 }
 
 h1, .edu-h1,
@@ -4263,6 +4271,20 @@ h6, .edu-h6 {
   background-color: transparent;
 }
 
+.edu-btn-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  border-radius: 50%;
+  text-align: center;
+  font-size: var(--icon-size);
+  background-color: transparent;
+  transition: all 0.3s 0s ease-out;
+}
+.edu-btn-icon:hover, .edu-btn-icon:focus, .edu-btn-icon.edu-btn-icon-static {
+  background-color: var(--btn-icon-hvr-bg);
+}
+
 .edu-bdg {
   border: 0;
   border-radius: var(--default-brd-rad);
@@ -4518,4 +4540,45 @@ h6, .edu-h6 {
     right: 0;
     transform: translateX(0);
   }
+}
+
+.dropdown-header, .dropdown-footer {
+  background-color: var(--tbl-header-bg-clr);
+}
+.dropdown-link:hover, .dropdown-link:hover {
+  color: var(--edu-secondary-clr);
+}
+
+.edu-header {
+  width: 100%;
+  background-color: var(--card-bg-clr);
+  height: var(--default-navbar-height);
+}
+
+.theme-control .theme-light, .theme-control .theme-dark {
+  display: none;
+}
+.theme-control [data-current-theme=light] .theme-light {
+  display: none;
+}
+.theme-control [data-current-theme=light] .theme-dark {
+  display: block;
+}
+.theme-control [data-current-theme=dark] .theme-dark {
+  display: none;
+}
+.theme-control [data-current-theme=dark] .theme-light {
+  display: block;
+}
+
+#profile {
+  --default-dropdown-width: 25rem;
+  top: calc(var(--default-navbar-height) - 1rem);
+}
+#profile .user-details {
+  line-height: 1.2;
+}
+#profile .dropdown-footer {
+  background-color: transparent;
+  border-top: 0.1rem solid var(--brdr-clr);
 }

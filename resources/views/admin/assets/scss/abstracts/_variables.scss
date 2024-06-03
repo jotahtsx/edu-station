@@ -167,6 +167,7 @@ $edu-colors: (
   --btn-warn-text-clr: var(--edu-warn-clr);
   --btn-danger-bg-clr: var(--edu-danger-100-clr);
   --btn-danger-text-clr: var(--edu-danger-clr);
+  --btn-icon-hvr-bg: var(--edu-gray-clr);
 
   /* ************** TIPOGRAFIA ************** */
   --base-font-size: 62.5%; // 10px (10 / 16) * 100 = 62.5
@@ -217,6 +218,9 @@ $edu-colors: (
   --default-input-padding: 0.9rem 3rem;
   --default-dropdown-width: 22.5rem;
   --default-dropdown-mx-height: 35rem;
+  //Navegação
+  --default-navbar-height: 6rem;
+  --default-sidebar-nav-width: 25rem;
 }
 
 /* ************** TIPOGRAFIA ************** */

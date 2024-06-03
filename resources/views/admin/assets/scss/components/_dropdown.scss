@@ -67,5 +67,16 @@
       }
     }
   }
-  
+}
+
+.dropdown {
+  &-header, &-footer {
+    background-color: var(--tbl-header-bg-clr);
+  }
+
+  &-link {
+    &:hover, &:hover {
+      color: var(--edu-secondary-clr);
+    }
+  }
 }
