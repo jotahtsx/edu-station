@@ -43,7 +43,15 @@
                     </div>
 
                     <ul class="edu-header__navitems edu-header__sidebar-md-3 edu-header__sidebar-lg-2 edu-pd-y-20"
-                        id="main-menu"></ul>
+                        id="main-menu">
+
+                        <li class="edu-header__list">
+                            <a href="{{ route('admin.home') }}"
+                                class="edu-header__link--logo edu-pd-20 edu-d-flex edu-align-center edu-justify-center">
+                                <img src="{{ url(asset('backend/assets/images/logo.svg')) }}" />
+                            </a>
+                        </li>
+                    </ul>
 
                     <div class="edu-header__right edu-d-flex edu-align-center">
                         <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-mg-r-10">

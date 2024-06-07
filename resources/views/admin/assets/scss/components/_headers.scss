@@ -6,6 +6,16 @@
   width: 100%;
   background-color: var(--card-bg-clr);
   height: var(--default-navbar-height);
+
+  &__mobile {
+    &--trigger {
+      background-color: var(--global-bg-clr);
+      width: 3.6rem;
+      height: 3.6rem;
+      border-radius: var(--default-brd-rad);
+    }
+  }
+
 }
 
 .theme-control {
