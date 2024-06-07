@@ -7,49 +7,91 @@
   background-color: var(--card-bg-clr);
   height: var(--default-navbar-height);
 
+  &-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+  }
+
   &__mobile {
     &--trigger {
       background-color: var(--global-bg-clr);
-      width: 3.6rem;
-      height: 3.6rem;
+      width: 3rem;
+      height: 3rem;
       border-radius: var(--default-brd-rad);
     }
   }
 
-}
-
-.theme-control {
-  .theme-light, .theme-dark {
-    display: none;
-  }
-
-  [data-current-theme=light] {
-    .theme-light {
-      display: none;
-    }
-    .theme-dark {
-      display: block;
-    }
-  }
-  [data-current-theme=dark] {
+  // Theme switcher
+  .theme-control {
+    .theme-light,
     .theme-dark {
       display: none;
     }
-    .theme-light {
-      display: block;
+
+    [data-current-theme="light"] {
+      .theme-light {
+        display: none;
+      }
+      .theme-dark {
+        display: block;
+      }
+    }
+    [data-current-theme="dark"] {
+      .theme-dark {
+        display: none;
+      }
+      .theme-light {
+        display: block;
+      }
     }
   }
-}
 
-#profile {
-  --default-dropdown-width: 25rem;
-  top: calc(var(--default-navbar-height) - 1rem);
-  .user-details {
-    line-height: 1.2;
+  #profile {
+    top: calc(var(--default-navbar-height) - 1rem);
   }
 
-  .dropdown-footer {
+  #profile {
+    .user-details {
+      line-height: 1.2;
+    }
+
+    .dropdown-footer {
+      background-color: transparent;
+      border-top: 0.1rem solid var(--brdr-clr);
+    }
+  }
+
+  // Sidebar
+  &__navitems {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow: hidden auto;
+    background-color: var(--sidebar-bg-clr);
+    width: var(--default-sidebar-nav-width);
+    max-width: var(--default-sidebar-nav-width);
+    z-index: 25;
+
+    @include transition;
+    @include customScrollbar;
+
+    @include respond(sm) {
+      ----default-sidebar-nav-width: 36rem;
+    }
+  }
+  &__link--logo {
     background-color: transparent;
-    border-top: 0.1rem solid var(--brdr-clr);
+    width: 80%;
+    height: var(--default-navbar-height);
+    img {
+      width: 100%;
+    }
+  }
+
+  &__link {
+    border-left: 0.4rem solid transparent;
   }
 }

@@ -4554,37 +4554,86 @@ h6, .edu-h6 {
   background-color: var(--card-bg-clr);
   height: var(--default-navbar-height);
 }
+.edu-header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
 .edu-header__mobile--trigger {
   background-color: var(--global-bg-clr);
-  width: 3.6rem;
-  height: 3.6rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: var(--default-brd-rad);
 }
-
-.theme-control .theme-light, .theme-control .theme-dark {
+.edu-header .theme-control .theme-light,
+.edu-header .theme-control .theme-dark {
   display: none;
 }
-.theme-control [data-current-theme=light] .theme-light {
+.edu-header .theme-control [data-current-theme=light] .theme-light {
   display: none;
 }
-.theme-control [data-current-theme=light] .theme-dark {
+.edu-header .theme-control [data-current-theme=light] .theme-dark {
   display: block;
 }
-.theme-control [data-current-theme=dark] .theme-dark {
+.edu-header .theme-control [data-current-theme=dark] .theme-dark {
   display: none;
 }
-.theme-control [data-current-theme=dark] .theme-light {
+.edu-header .theme-control [data-current-theme=dark] .theme-light {
   display: block;
 }
-
-#profile {
-  --default-dropdown-width: 25rem;
+.edu-header #profile {
   top: calc(var(--default-navbar-height) - 1rem);
 }
-#profile .user-details {
+.edu-header #profile .user-details {
   line-height: 1.2;
 }
-#profile .dropdown-footer {
+.edu-header #profile .dropdown-footer {
   background-color: transparent;
   border-top: 0.1rem solid var(--brdr-clr);
+}
+.edu-header__navitems {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow: hidden auto;
+  background-color: var(--sidebar-bg-clr);
+  width: var(--default-sidebar-nav-width);
+  max-width: var(--default-sidebar-nav-width);
+  z-index: 25;
+  transition: all 0.3s 0s ease-out;
+  scrollbar-width: thin;
+  scrollbar-color: var(--edu-gray-600-clr) transparent;
+}
+.edu-header__navitems::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0.2rem transparent;
+  background: transparent;
+  margin: 1.1rem;
+}
+.edu-header__navitems::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.5rem;
+  background: transparent;
+}
+.edu-header__navitems::-webkit-scrollbar-thumb {
+  border-radius: 6rem;
+  width: 0.5rem;
+  background-color: var(--edu-gray-600-clr);
+}
+@media screen and (min-width: 553px) {
+  .edu-header__navitems {
+    ----default-sidebar-nav-width: 36rem;
+  }
+}
+.edu-header__link--logo {
+  background-color: transparent;
+  width: 80%;
+  height: var(--default-navbar-height);
+}
+.edu-header__link--logo img {
+  width: 100%;
+}
+.edu-header__link {
+  border-left: 0.4rem solid transparent;
 }
