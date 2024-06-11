@@ -106,3 +106,17 @@
     }
   }
 }
+
+@each $break, $value in $containers {
+  @include respond(#{$break}) {
+    @for $i from 1 through 6 {
+      .edu-header__sidebar-#{$break}-#{$i} {
+        transform: translate(0);
+        opacity: 1;
+        pointer-events: all;
+        visibility: visible;
+        width: calc(100% / (#{$total-cols} / #{$i}));
+      }
+    }
+  }
+}

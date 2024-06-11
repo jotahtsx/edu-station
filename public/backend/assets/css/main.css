@@ -4646,3 +4646,180 @@ h6, .edu-h6 {
 .edu-header__link.edu-active {
   border-color: var(--sidebar-menu-item-active-brg-clr);
 }
+
+@media screen and (min-width: 553px) {
+  .edu-header__sidebar-sm-1 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 1));
+  }
+  .edu-header__sidebar-sm-2 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 2));
+  }
+  .edu-header__sidebar-sm-3 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 3));
+  }
+  .edu-header__sidebar-sm-4 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 4));
+  }
+  .edu-header__sidebar-sm-5 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 5));
+  }
+  .edu-header__sidebar-sm-6 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 6));
+  }
+}
+@media screen and (min-width: 901px) {
+  .edu-header__sidebar-md-1 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 1));
+  }
+  .edu-header__sidebar-md-2 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 2));
+  }
+  .edu-header__sidebar-md-3 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 3));
+  }
+  .edu-header__sidebar-md-4 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 4));
+  }
+  .edu-header__sidebar-md-5 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 5));
+  }
+  .edu-header__sidebar-md-6 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 6));
+  }
+}
+@media screen and (min-width: 1281px) {
+  .edu-header__sidebar-lg-1 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 1));
+  }
+  .edu-header__sidebar-lg-2 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 2));
+  }
+  .edu-header__sidebar-lg-3 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 3));
+  }
+  .edu-header__sidebar-lg-4 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 4));
+  }
+  .edu-header__sidebar-lg-5 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 5));
+  }
+  .edu-header__sidebar-lg-6 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 6));
+  }
+}
+@media screen and (min-width: 1440px) {
+  .edu-header__sidebar-xl-1 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 1));
+  }
+  .edu-header__sidebar-xl-2 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 2));
+  }
+  .edu-header__sidebar-xl-3 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 3));
+  }
+  .edu-header__sidebar-xl-4 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 4));
+  }
+  .edu-header__sidebar-xl-5 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 5));
+  }
+  .edu-header__sidebar-xl-6 {
+    transform: translate(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    width: calc(100% / (12 / 6));
+  }
+}
