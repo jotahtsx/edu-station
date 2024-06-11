@@ -16,7 +16,7 @@
 
     <section class="area-login">
         <div class="login">
-            <img src="{{ url(asset('backend/assets/images/logo.svg')) }}" />
+            <img class="login-brand" src="{{ url(asset('backend/assets/images/logo.svg')) }}" />
             <form method="POST">
                 <input type="text" name="email" placeholder="Seu email" onfocus />
                 <input type="password" name="password" placeholder="Sua senha" />

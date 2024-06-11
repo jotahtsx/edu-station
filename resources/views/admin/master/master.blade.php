@@ -22,26 +22,7 @@
     <header class="edu-header edu-header-fixed edu-d-flex edu-justify-between edu-align-center">
         <div class="edu-container">
             <div class="edu-offset-12 edu-offset-md-3 edu-offset-lg-2">
-                <nav class="edu-header__nav edu-d-flex edu-justify-between edu-align-center">
-
-                    <div class="edu-header__left edu-d-flex edu-align-center edu-mg-r-10 edu-mg-r-0-md">
-
-                        <div class="edu-header__mobile edu-mg-r-10 edu-d-none-md">
-                            <button type="button" class="edu-icon-btn edu-header__mobile--trigger"
-                                data-menu-target="main-menu">
-                                <i class="ri-menu-2-line edu-fs-16"></i>
-                            </button>
-                        </div>
-                        <div class="edu-header__form">
-                            <form class="edu-form">
-                                <div class="edu-form__group">
-                                    <input type="text" class="edu-form__input" placeholder="Pesquisar" />
-                                    <i class="ri-search-line edu-form__icon"></i>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
+                <nav class="edu-header__nav edu-d-flex edu-justify-end edu-align-center">
                     <ul class="edu-header__navitems edu-header__sidebar-md-3 edu-header__sidebar-lg-2" id="main-menu">
 
                         <li class="edu-header__list">
@@ -52,43 +33,41 @@
                         </li>
 
                         <li class="edu-header__list">
-                            <a href="direcao"
+                            <a href=""
                                 class="edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
-                                <span class="edu-fs-14 edu-d-flex edu-align-center">
-                                    <i class="ri-message-2-line edu-mg-r-10"></i>Direção
-                                </span>
+                                <span class="edu-fs-14 edu-d-flex edu-align-center"><i
+                                        class="ri-task-line edu-mg-r-10"></i>Direção</span>
+                            </a>
+                        </li>
+
+                        <li class="edu-header__list">
+                            <a href=""
+                                class="edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
+                                <span class="edu-fs-14 edu-d-flex edu-align-center"><i
+                                        class="ri-presentation-line edu-mg-r-10"></i>Docente</span>
+                            </a>
+                        </li>
+
+                        <li class="edu-header__list">
+                            <a href=""
+                                class="edu-header__link edu-pd-20 edu-d-flex eedu-align-center edu-justify-between">
+                                <span class="edu-fs-14 edu-d-flex edu-align-center"><i
+                                        class="ri-graduation-cap-line edu-mg-r-10"></i>
+                                    Aluno(a)</span>
                             </a>
                         </li>
                         <li class="edu-header__list">
-                            <a href="docente"
-                                class="edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
-                                <span class="edu-fs-14 edu-d-flex edu-align-center">
-                                    <i class="ri-message-2-line edu-mg-r-10"></i>Docente
-                                </span>
+                            <a href=""
+                                class="edu-header__link edu-pd-20 edu-d-flex eedu-align-center edu-justify-between">
+                                <span class="edu-fs-14 edu-d-flex edu-align-center"><i
+                                        class="ri-slideshow-line edu-mg-r-10"></i>Disciplina / Notas</span>
                             </a>
                         </li>
                         <li class="edu-header__list">
-                            <a href="docente"
-                                class="edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
-                                <span class="edu-fs-14 edu-d-flex edu-align-center">
-                                    <i class="ri-message-2-line edu-mg-r-10"></i>Aluno(a)
-                                </span>
-                            </a>
-                        </li>
-                        <li class="edu-header__list">
-                            <a href="disciplina"
-                                class="edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
-                                <span class="edu-fs-14 edu-d-flex edu-align-center">
-                                    <i class="ri-message-2-line edu-mg-r-10"></i>Disciplina
-                                </span>
-                            </a>
-                        </li>
-                        <li class="edu-header__list">
-                            <a href="turma"
-                                class="edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
-                                <span class="edu-fs-14 edu-d-flex edu-align-center">
-                                    <i class="ri-message-2-line edu-mg-r-10"></i>Turma
-                                </span>
+                            <a href=""
+                                class="edu-header__link edu-pd-20 edu-d-flex eedu-align-center edu-justify-between">
+                                <span class="edu-fs-14 edu-d-flex edu-align-center"><i
+                                        class="ri-team-line edu-mg-r-10"></i>Turma</span>
                             </a>
                         </li>
                     </ul>
@@ -96,7 +75,6 @@
                     <div class="edu-header__right edu-d-flex edu-align-center">
                         <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-mg-r-10">
                             <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-align-center">
-
                                 <div class="theme-control edu-mg-r-10">
                                     <button type="button" class="theme-switcher edu-btn-icon"
                                         data-current-theme="light">
@@ -154,6 +132,8 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>

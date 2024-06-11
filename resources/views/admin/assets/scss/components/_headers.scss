@@ -92,6 +92,17 @@
   }
 
   &__link {
-    border-left: 0.4rem solid transparent;
+    border-left: 0 solid transparent;
+    span, i {
+      color: var(--sidebar-menu-item-clr);
+    }
+
+    &:hover, &:focus, &.edu-active {
+      background-color: var(--sidebar-menu-item-hvr-bg-clr);
+    }
+
+    &.edu-active {
+      border-color: var(--sidebar-menu-item-active-brg-clr);
+    }
   }
 }

@@ -4635,5 +4635,14 @@ h6, .edu-h6 {
   width: 100%;
 }
 .edu-header__link {
-  border-left: 0.4rem solid transparent;
+  border-left: 0 solid transparent;
+}
+.edu-header__link span, .edu-header__link i {
+  color: var(--sidebar-menu-item-clr);
+}
+.edu-header__link:hover, .edu-header__link:focus, .edu-header__link.edu-active {
+  background-color: var(--sidebar-menu-item-hvr-bg-clr);
+}
+.edu-header__link.edu-active {
+  border-color: var(--sidebar-menu-item-active-brg-clr);
 }
