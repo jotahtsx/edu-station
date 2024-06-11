@@ -22,7 +22,15 @@
     <header class="edu-header edu-header-fixed edu-d-flex edu-justify-between edu-align-center">
         <div class="edu-container">
             <div class="edu-offset-12 edu-offset-md-3 edu-offset-lg-2">
-                <nav class="edu-header__nav edu-d-flex edu-justify-end edu-align-center">
+                <nav class="edu-header__nav edu-d-flex edu-justify-between edu-align-center">
+                    <div class="edu-header__left edu-d-flex edu-align-center edu-mg-r-10 edu-mg-r-0-md">
+                        <div class="edu-header__mobile edu-mg-r-10 edu-d-none-md">
+                            <button type="button" class="edu-icon-btn edu-header__mobile--trigger"
+                                data-menu-target="main-menu">
+                                <i class="ri-menu-2-line edu-fs-16"></i>
+                            </button>
+                        </div>
+                    </div>
                     <ul class="edu-header__navitems edu-header__sidebar-md-3 edu-header__sidebar-lg-2" id="main-menu">
 
                         <li class="edu-header__list">

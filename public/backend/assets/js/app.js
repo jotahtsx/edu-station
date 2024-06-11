@@ -38,3 +38,30 @@ const dropdown = () => {
 }
 
 dropdown()
+
+const navbar = () => {
+  const _variables = {
+    main: "edu-header",
+    menu: "edu-header__navitems",
+    target: "edu-header__mobile--trigger",
+    targetId: "data-menu-target",
+    active: "edu-active",
+    components: [...document.querySelectorAll(".edu-header")]
+  }
+
+  document.addEventListener("click", edu=> {
+    const targetBtn = edu.target.closest(`.${_variables.target}`)
+
+    if(!targetBtn)return
+
+    edu.preventDefault()
+
+    const targetId = targetBtn.getAttribute(_variables.targetId)
+    const activeMenu = document.querySelector(`#${targetId}`)
+
+    if(activeMenu) activeMenu.classList.toggle(_variables.active)
+
+  })
+}
+
+navbar()

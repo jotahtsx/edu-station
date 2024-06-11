@@ -4562,8 +4562,8 @@ h6, .edu-h6 {
 }
 .edu-header__mobile--trigger {
   background-color: var(--global-bg-clr);
-  width: 3rem;
-  height: 3rem;
+  width: 3.6rem;
+  height: 3.6rem;
   border-radius: var(--default-brd-rad);
 }
 .edu-header .theme-control .theme-light,
@@ -4602,6 +4602,8 @@ h6, .edu-h6 {
   width: var(--default-sidebar-nav-width);
   max-width: var(--default-sidebar-nav-width);
   z-index: 25;
+  visibility: hidden;
+  transform: translateX(-100%);
   transition: all 0.3s 0s ease-out;
   scrollbar-width: thin;
   scrollbar-color: var(--edu-gray-600-clr) transparent;
@@ -4620,6 +4622,10 @@ h6, .edu-h6 {
   border-radius: 6rem;
   width: 0.5rem;
   background-color: var(--edu-gray-600-clr);
+}
+.edu-header__navitems.edu-active {
+  visibility: visible;
+  transform: translateX(0);
 }
 @media screen and (min-width: 553px) {
   .edu-header__navitems {
