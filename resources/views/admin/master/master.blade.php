@@ -148,7 +148,37 @@
     </header>
 
     <main>
+        <div class="dashboard">
+            <div class="edu-container">
+                <div class="edu-offset-12 odu-offset-md-3 edu-offset-lg-2">
+                    <div class="section-heading edu-pd-y-20">
+                        <h4 class="title">Bom dia, Grazi!</h4>
+                        <p class="subtitle">Bem vindo ao sistema de gerenciamento</p>
+                    </div>
 
+                    <section class="overview edu-pd-y-20">
+
+                        <div class="edu-row">
+
+                            <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
+                            </div>
+
+                            <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
+                            </div>
+
+                            <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
+                            </div>
+
+                            <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
