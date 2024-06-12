@@ -54,3 +54,5 @@ const navbar = () => {
     console.log("targetBtn")
   })
 }
+
+navbar()
