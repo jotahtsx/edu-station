@@ -56,11 +56,34 @@ const navbar = () => {
 
     edu.preventDefault()
 
-    const targetId = targetBtn.getAttribute(_variables.targetId)
+    const targetId = targetBtn.getAttribute(_variables.targetId)  
+
     const activeMenu = document.querySelector(`#${targetId}`)
+
+    const nonTargeted = _variables.components.map(head => {
+      const nonActiveId = head.querySelector(`[${_variables.targetId}]`).getAttribute(_variables.targetId)
+      const nonActive = document.querySelector(`#${nonActiveId}`)
+
+      return nonActive
+    })
+
+    const filterExceptActive = nonTargeted.filter(target => target !== activeMenu)
+
+    filterExceptActive.forEach(head => head.classList.remove(_variables.active))
 
     if(activeMenu) activeMenu.classList.toggle(_variables.active)
 
+  })
+
+  window.addEventListener('mouseup', edu=> {
+    const target = edu.target.closest(`.${_variables.menu}`) || edu.target.closest(`.${_variables.target}`)
+    
+    if(target) return 
+
+    _variables.components.forEach(head => {
+      const menu = head.querySelector(`.${_variables.menu}`)
+      if(menu.classList.contains(_variables.active)) menu.classList.remove(_variables.active)
+    })
   })
 }
 
