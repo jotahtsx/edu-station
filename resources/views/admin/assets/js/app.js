@@ -51,7 +51,7 @@ const navbar = () => {
 
   document.addEventListener("click", edu=> {
     const targetBtn = edu.target.closest(`.${_variables.target}`);
-    console.log("targetBtn")
+    console.log(targetBtn)
   })
 }
 
