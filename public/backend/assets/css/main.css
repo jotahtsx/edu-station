@@ -83,6 +83,7 @@
   --bdg-warn-text-clr: var(--edu-warn-clr);
   --bdg-danger-bg-clr: var(--edu-danger-100-clr);
   --bdg-danger-text-clr: var(--edu-danger-clr);
+  --bdg-blue-text-clr: var(--edu-info-clr);
   /* Form */
   --input-bg-clr: var(--edu-gray-clr);
   --input-brdr-clr: var(--edu-primary-clr);
