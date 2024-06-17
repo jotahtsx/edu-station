@@ -28,4 +28,9 @@
     text-align: center;
     white-space: nowrap;
   }
+  .actions {
+    .change {
+      color: var(--edu-btn-success);
+    }
+  }
 }

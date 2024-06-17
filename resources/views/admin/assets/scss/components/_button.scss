@@ -48,9 +48,9 @@
 
   &.edu-btn-link {
     padding: 0;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent;
-    text-transform: uppercase;
+    text-transform: initial;
     &:hover {
       background-color: transparent;
     }

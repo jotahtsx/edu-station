@@ -273,7 +273,7 @@
                                 <div class="edu-card">
 
                                     <div class="edu-card__header">
-                                        <span class="edu-card__title e-fw-bld">Usuários</span>
+                                        <span class="edu-card__title edu-fw-bld">Usuários</span>
 
                                         <div class="edu-d-flex edu-align-center">
                                             <button type="button"
@@ -293,10 +293,86 @@
 
                                             <table class="edu-tbl">
 
+                                                <thead class="edu-tbl__header">
+                                                    <tr class="edu-tbl__row">
+                                                        <th class="edu-tbl__head">
+                                                            Nome
+                                                        </th>
+                                                        <th class="edu-tbl__head">
+                                                            CPF
+                                                        </th>
+                                                        <th class="edu-tbl__head">
+                                                            Data de Nascimento
+                                                        </th>
+                                                        <th class="edu-tbl__head">
+                                                            Opções
+                                                        </th>
+                                                    </tr>
+                                                </thead>
 
-
+                                                <tbody class="edu-tbl__body">
+                                                    <tr class="edu-tbl__row">
+                                                        <td class="edu-tbl__data">Giacomo Guillizoni</td>
+                                                        <td class="edu-tbl__data">123.456.789-00</td>
+                                                        <td class="edu-tbl__data">12/12/1982</td>
+                                                        <td class="edu-tbl__data actions">
+                                                            <a href=""
+                                                                class="edu-btn edu-btn-link edu-btn-secondary edu-fw-bld edu-mg-r-10">
+                                                                Alterar
+                                                            </a>
+                                                            <a href=""
+                                                                class="edu-btn edu-btn-link edu-btn-danger edu-fw-bld edu-mg-r-0">
+                                                                Excluir
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="edu-tbl__row">
+                                                        <td class="edu-tbl__data">Giacomo Guillizoni</td>
+                                                        <td class="edu-tbl__data">123.456.789-00</td>
+                                                        <td class="edu-tbl__data">12/12/1982</td>
+                                                        <td class="edu-tbl__data actions">
+                                                            <a href=""
+                                                                class="edu-btn edu-btn-link edu-btn-secondary edu-fw-bld edu-mg-r-10">
+                                                                Alterar
+                                                            </a>
+                                                            <a href=""
+                                                                class="edu-btn edu-btn-link edu-btn-danger edu-fw-bld edu-mg-r-0">
+                                                                Excluir
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="edu-tbl__row">
+                                                        <td class="edu-tbl__data">Giacomo Guillizoni</td>
+                                                        <td class="edu-tbl__data">123.456.789-00</td>
+                                                        <td class="edu-tbl__data">12/12/1982</td>
+                                                        <td class="edu-tbl__data actions">
+                                                            <a href=""
+                                                                class="edu-btn edu-btn-link edu-btn-secondary edu-fw-bld edu-mg-r-10">
+                                                                Alterar
+                                                            </a>
+                                                            <a href=""
+                                                                class="edu-btn edu-btn-link edu-btn-danger edu-fw-bld edu-mg-r-0">
+                                                                Excluir
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="edu-tbl__row">
+                                                        <td class="edu-tbl__data">Giacomo Guillizoni</td>
+                                                        <td class="edu-tbl__data">123.456.789-00</td>
+                                                        <td class="edu-tbl__data">12/12/1982</td>
+                                                        <td class="edu-tbl__data actions">
+                                                            <a href=""
+                                                                class="edu-btn edu-btn-link edu-btn-secondary edu-fw-bld edu-mg-r-10">
+                                                                Alterar
+                                                            </a>
+                                                            <a href=""
+                                                                class="edu-btn edu-btn-link edu-btn-danger edu-fw-bld edu-mg-r-0">
+                                                                Excluir
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
                                             </table>
-
                                         </div>
                                     </div>
                                 </div>

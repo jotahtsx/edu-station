@@ -4276,9 +4276,9 @@ h6, .edu-h6 {
 }
 .edu-btn.edu-btn-link {
   padding: 0;
-  text-decoration: underline;
+  text-decoration: none;
   background-color: transparent;
-  text-transform: uppercase;
+  text-transform: initial;
 }
 .edu-btn.edu-btn-link:hover {
   background-color: transparent;
@@ -4434,6 +4434,9 @@ h6, .edu-h6 {
   padding: 1.6rem;
   text-align: center;
   white-space: nowrap;
+}
+.edu-tbl .actions .change {
+  color: var(--edu-btn-success);
 }
 
 .edu-dropdown {
