@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+@use "../layout/breakpoints" as *;
+
+.dashboard {
+  margin-top: var(--default-navbar-height);
+}
+
+.bdg {
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  line-height: 3rem;
+  font-size: 1.6rem;
+}

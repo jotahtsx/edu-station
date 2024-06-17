@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
     <header class="edu-header edu-header-fixed edu-d-flex edu-justify-between edu-align-center">
         <div class="edu-container">
             <div class="edu-offset-12 edu-offset-md-3 edu-offset-lg-2">
@@ -44,7 +43,7 @@
                             <a href=""
                                 class="edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
                                 <span class="edu-fs-14 edu-d-flex edu-align-center"><i
-                                        class="ri-heart-line edu-mg-r-10"></i>Direção</span>
+                                        class="ri-folders-line edu-mg-r-10"></i>Direção</span>
                             </a>
                         </li>
 
@@ -178,7 +177,7 @@
                                         </div>
 
                                         <div class="right-side">
-                                            <div class="edu-bdg edu-bdg-danger bdg"><i class="ri-heart-line"></i>
+                                            <div class="edu-bdg edu-bdg-danger bdg"><i class="ri-folders-line"></i>
                                             </div>
                                         </div>
 
@@ -239,7 +238,7 @@
                                 </div>
                             </div>
 
-                            <div class="edu-flex-sm-6 edu-flex-lg-3">
+                            <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
                                 <div class="edu-card">
                                     <div class="edu-card__header">
                                         <span class="edu-card__title edu-fw-bld">Turma</span>
@@ -266,6 +265,43 @@
                             </div>
                         </div>
 
+                    </section>
+
+                    <section class="students-updates edu-pd-y-20">
+                        <div class="edu-row">
+                            <div class="edu-flex-md-12 edu-mg-b-20 edu-mg-b-0-md">
+                                <div class="edu-card">
+
+                                    <div class="edu-card__header">
+                                        <span class="edu-card__title e-fw-bld">Usuários</span>
+
+                                        <div class="edu-d-flex edu-align-center">
+                                            <button type="button"
+                                                class="edu-btn edu-btn-sm edu-btn-primary edu-fw-bld edu-mg-r-8 edu-pd-y-6">
+                                                Exportar
+                                            </button>
+
+                                            <button type="button"
+                                                class="edu-btn edu-btn-sm edu-btn-success edu-fw-bld edu-pd-y-6">
+                                                Inserir
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="edu-card__body edu-pd-0">
+                                        <div class="edu-overflow-auto">
+
+                                            <table class="edu-tbl">
+
+
+
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
 
                 </div>
