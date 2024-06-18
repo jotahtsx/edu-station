@@ -78,69 +78,73 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="edu-header__right edu-d-flex e-align-center">
 
-                    <div class="edu-header__right edu-d-flex edu-align-center">
-                        <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-mg-r-10">
-                            <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-align-center">
-                                <div class="theme-control edu-mg-r-10">
-                                    <button type="button" class="theme-switcher edu-btn-icon"
-                                        data-current-theme="light">
-                                        <i class="ri-moon-line theme-dark"></i>
-                                        <i class="ri-sun-line theme-light"></i>
-                                    </button>
-                                </div>
+                        <div class="theme-control edu-mg-r-10">
+                            <button type="button" class="theme-switcher edu-btn-icon" data-current-theme="light">
+                                <i class="ri-moon-line theme-dark"></i>
+                                <i class="ri-sun-line theme-light"></i>
+                            </button>
+                        </div>
 
-                                <button type="button" class="edu-avat edu-avat-35" data-dropdown-target="profile">
-                                    <img class="edu-avat__img"
-                                        src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}" alt=""
-                                        title="" />
-                                </button>
+                        <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-align-center">
 
-                                <div class="edu-dropdown__menu" id="profile">
-                                    <div class="dropdown-header edu-pd-20">
-                                        <div class="edu-d-flex edu-align-center">
+                            <button type="button" class="edu-avat edu-avat-35" data-dropdown-target="profile">
+                                <img src="{{ asset('backend/assets/images/user-f-1.jpg') }}" alt=""
+                                    class="edu-avat__img">
+                            </button>
 
-                                            <div class="user-img edu-mg-r-10">
-                                                <div class="edu-avat edu-avat-40">
-                                                    <img class="edu-avat__img"
-                                                        src="{{ url(asset('backend/assets/images/user-f-1.jpg')) }}"
-                                                        alt="" title="" />
-                                                </div>
+                            <div class="edu-dropdown__menu" id="profile">
+
+                                <div class="dropdown-header edu-pd-20">
+
+                                    <div class="edu-d-flex edu-align-center">
+
+                                        <div class="user-img edu-mg-r-10">
+                                            <div class="edu-avat edu-avat-40">
+                                                <img src="{{ asset('backend/assets/images/user-f-1.jpg') }}"
+                                                    alt="User" class="edu-avat__img">
                                             </div>
-
-                                            <div class="user-details">
-                                                <span class="edu-fw-bld edu-fs-14 edu-d-block">Grazi Massafera</span>
-                                                <span class="edu-fs-12">Gerente de projetos</span>
-                                            </div>
-
                                         </div>
+
+                                        <div class="user-details">
+                                            <span class="edu-fw-bld edu-fs-14 edu-d-block">Grazi</span>
+                                            <span class="edu-fs-12">Gerente de projetos</span>
+                                        </div>
+
                                     </div>
 
-                                    <ul class="dropdown-content">
-                                        <li class="dropdown-list">
-                                            <a href="#"
-                                                class="dropdown-link edu-d-flex edu-align-center edu-pd-x-20 edu-pd-y-10">
-                                                <i class="ri-equalizer-line edu-fs-16 edu-mg-r-10"></i>
-                                                <span class="edu-fs-14 edu-fw-bld">
-                                                    Configurações
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                </div>
 
-                                    <div class="dropdown-footer">
+                                <ul class="dropdown-content">
+
+                                    <li class="dropdown-list">
                                         <a href="#"
                                             class="dropdown-link edu-d-flex edu-align-center edu-pd-x-20 edu-pd-y-10">
-                                            <i class="ri-logout-box-r-line edu-fs-18 edu-mg-r-10"></i>
+                                            <i class="ri-equalizer-line edu-fs-16 edu-mg-r-10"></i>
                                             <span class="edu-fs-14 edu-fw-bld">
-                                                Sair
+                                                Configurações
                                             </span>
                                         </a>
-                                    </div>
+                                    </li>
+
+                                </ul>
+
+                                <div class="dropdown-footer">
+                                    <a href="#"
+                                        class="dropdown-link edu-d-flex edu-align-center edu-pd-x-20 edu-pd-y-10">
+                                        <i class="ri-logout-box-r-line edu-fs-18 edu-mg-r-10"></i>
+                                        <span class="edu-fs-14 edu-fw-bld">
+                                            Sair
+                                        </span>
+                                    </a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+
+                            </div><!-- .e-dropdown__menu ends -->
+
+                        </div><!-- e-dropdown ends -->
+
+                    </div><!-- .e-header__right ends -->
                 </nav>
             </div>
         </div>

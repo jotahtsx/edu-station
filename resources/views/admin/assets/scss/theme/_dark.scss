@@ -1,0 +1,24 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+@use "../layout/breakpoints" as *;
+
+body.edu-theme-dark {
+  --global-bg-clr: var(--edu-dark-300-clr);
+  /* Sidebar */
+  --sidebar-bg-clr: var(--edu-dark-400-clr);
+  --sidebar-menu-item-clr: var(--edu-gray-50-clr);
+  --sidebar-menu-item-hvr-bg-clr: var(--edu-primary-400-clr);
+  --sidebar-empl-of-month-bg-clr: rgba(52, 66, 111, 0.8);
+  /* Navbar */
+  --navbar-bg-clr: var(--edu-dark-200-clr);
+  /* Card */
+  --card-bg-clr: var(--edu-dark-200-clr);
+  /* Table */
+  --tbl-header-bg-clr: var(--edu-dark-400-clr);
+  /* Typography */
+  --global-text-clr: var(--edu-gray-50-clr);  
+  /* Form */
+  --input-bg-clr: var(--edu-dark-300-clr);
+  --input-brdr-clr: var(--edu-primary-clr);
+  --btn-icon-hvr-bg: var(--edu-dark-300-clr);
+}

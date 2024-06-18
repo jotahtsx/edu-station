@@ -21,7 +21,7 @@ const operateNavigations = (type, target, variables) => {
 
 }
 
-// Fechando componentes
+// Closing components
 const closeComponents = (type, event, variables) => {
 
   const target = type === "dropdown" ? event.target.closest(`.${variables.menu}`) || event.target.closest(`[${variables.target}]`) : event.target.closest(`.${variables.menu}`) || event.target.closest(`.${variables.target}`)
@@ -100,68 +100,3 @@ const navbar = () => {
 }
 
 navbar()
-
-// Progress bar
-const progress = () => {
-
-  const _variables = {
-    main: [...document.querySelectorAll(".ease-progress")],
-    inner: "ease-progress__inner",
-    target: "data-current-progress"
-  }
-
-  if (_variables.main.length < 1) return
-
-  _variables.main.forEach(prog => {
-    const target = +prog.getAttribute(_variables.target)
-    const inner = prog.querySelector(`.${_variables.inner}`)
-
-    inner.style.width = `${target}%`
-  })
-
-}
-
-progress()
-
-const modal = () => {
-
-  const _variables = {
-    target: "data-modal-target",
-    active: "edu-active"
-  }
-
-  document.addEventListener("click", edu => {
-
-    const target = edu.target.closest(`[${_variables.target}]`)
-
-    if (!target) return
-
-    e.preventDefault()
-
-    const targetId = target.getAttribute(_variables.target)
-    const modal = document.querySelector(`#${targetId}`)
-
-    if (!modal) return
-
-    modal.classList.add(_variables.active)
-    document.body.style.overflow = "hidden"
-
-  })
-
-  window.addEventListener("mouseup", edu => {
-    const target = edu.target.closest(`[${_variables.target}]`) || edu.target.closest(`.ease-subscription-plan`)
-
-    if (target) return
-
-    const modal = edu.target.closest(".ease-modal")
-
-    if (!modal || modal && !modal.classList.contains(_variables.active)) return
-
-    modal.classList.remove(_variables.active)
-    document.body.removeAttribute("style")
-
-  })
-
-}
-
-modal()

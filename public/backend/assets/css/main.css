@@ -50,6 +50,11 @@
   --edu-gray-400-clr: #dddde2;
   --edu-gray-500-clr: #c9c9cd;
   --edu-gray-600-clr: #9191a1;
+  --edu-dark-clr: #212529;
+  --edu-dark-100-clr: #adb5bd;
+  --edu-dark-200-clr: #6c757a;
+  --edu-dark-300-clr: #4d5057;
+  --edu-dark-400-clr: #343a40;
   /* ************** CORES ************** */
   --global-bg-clr: var(--edu-gray-clr);
   /* Sidebar */
@@ -4855,4 +4860,25 @@ h6, .edu-h6 {
   padding: 0;
   line-height: 3rem;
   font-size: 1.6rem;
+}
+
+body.edu-theme-dark {
+  --global-bg-clr: var(--edu-dark-300-clr);
+  /* Sidebar */
+  --sidebar-bg-clr: var(--edu-dark-400-clr);
+  --sidebar-menu-item-clr: var(--edu-gray-50-clr);
+  --sidebar-menu-item-hvr-bg-clr: var(--edu-primary-400-clr);
+  --sidebar-empl-of-month-bg-clr: rgba(52, 66, 111, 0.8);
+  /* Navbar */
+  --navbar-bg-clr: var(--edu-dark-200-clr);
+  /* Card */
+  --card-bg-clr: var(--edu-dark-200-clr);
+  /* Table */
+  --tbl-header-bg-clr: var(--edu-dark-400-clr);
+  /* Typography */
+  --global-text-clr: var(--edu-gray-50-clr);
+  /* Form */
+  --input-bg-clr: var(--edu-dark-300-clr);
+  --input-brdr-clr: var(--edu-primary-clr);
+  --btn-icon-hvr-bg: var(--edu-dark-300-clr);
 }
