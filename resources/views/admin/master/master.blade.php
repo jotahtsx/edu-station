@@ -156,7 +156,7 @@
                 <div class="edu-offset-12 odu-offset-md-3 edu-offset-lg-2">
                     <div class="section-heading edu-pd-y-20">
                         <h4 class="title">Bom dia, Grazi!</h4>
-                        <p class="subtitle">Bem vindo ao sistema de gerenciamento</p>
+                        <p class="subtitle">Bem vindo(a) ao seu sistema de gerenciamento</p>
                     </div>
 
                     <section class="overview edu-pd-y-20">
@@ -165,7 +165,7 @@
 
                             <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
                                 <div class="edu-card">
-                                    <div class="edu-card__header">
+                                    <div class="edu-card__header edu-card__show">
                                         <span class="edu-card__title edu-fw-bld">Direção</span>
                                         <span class="edu-btn-icon edu-btn-icon-static">
                                             <i class="ri-bar-chart-line"></i>
@@ -191,7 +191,7 @@
 
                             <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
                                 <div class="edu-card">
-                                    <div class="edu-card__header">
+                                    <div class="edu-card__header edu-card__show">
                                         <span class="edu-card__title edu-fw-bld">Docente</span>
                                         <span class="edu-btn-icon edu-btn-icon-static">
                                             <i class="ri-bar-chart-line"></i>
@@ -218,7 +218,7 @@
 
                             <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
                                 <div class="edu-card">
-                                    <div class="edu-card__header">
+                                    <div class="edu-card__header edu-card__show">
                                         <span class="edu-card__title edu-fw-bld">Disciplina / Notas</span>
                                         <span class="edu-btn-icon edu-btn-icon-static">
                                             <i class="ri-bar-chart-line"></i>
@@ -244,7 +244,7 @@
 
                             <div class="edu-flex-sm-6 edu-flex-lg-3 edu-mg-b-20 edu-mg-b-0-lg">
                                 <div class="edu-card">
-                                    <div class="edu-card__header">
+                                    <div class="edu-card__header edu-card__show">
                                         <span class="edu-card__title edu-fw-bld">Turma</span>
                                         <span class="edu-btn-icon edu-btn-icon-static">
                                             <i class="ri-bar-chart-line"></i>
@@ -279,14 +279,14 @@
                                     <div class="edu-card__header">
                                         <span class="edu-card__title edu-fw-bld">Usuários</span>
 
-                                        <div class="edu-d-flex edu-align-center">
+                                        <div class="edu-d-flex edu-align-end">
                                             <button type="button"
                                                 class="edu-btn edu-btn-sm edu-btn-primary edu-fw-bld edu-mg-r-8 edu-pd-y-6">
                                                 Exportar
                                             </button>
 
                                             <button type="button"
-                                                class="edu-btn edu-btn-sm edu-btn-success edu-fw-bld edu-pd-y-6">
+                                                class="edu-btn edu-btn-sm edu-btn-success edu-fw-bld">
                                                 Inserir
                                             </button>
                                         </div>
@@ -321,11 +321,11 @@
                                                         <td class="edu-tbl__data">12/12/1982</td>
                                                         <td class="edu-tbl__data actions">
                                                             <a href=""
-                                                                class="edu-btn edu-btn-link edu-btn-secondary edu-fw-bld edu-mg-r-10">
+                                                                class="edu-btn edu-btn-link change-edit-color edu-btn-secondary edu-fw-bld edu-mg-r-10">
                                                                 Alterar
                                                             </a>
                                                             <a href=""
-                                                                class="edu-btn edu-btn-link edu-btn-danger edu-fw-bld edu-mg-r-0">
+                                                                class="edu-btn edu-btn-link change-delete-color edu-btn-danger edu-fw-bld edu-mg-r-0">
                                                                 Excluir
                                                             </a>
                                                         </td>
@@ -336,11 +336,11 @@
                                                         <td class="edu-tbl__data">12/12/1982</td>
                                                         <td class="edu-tbl__data actions">
                                                             <a href=""
-                                                                class="edu-btn edu-btn-link edu-btn-secondary edu-fw-bld edu-mg-r-10">
+                                                                class="edu-btn edu-btn-link change-edit-color edu-btn-secondary edu-fw-bld edu-mg-r-10">
                                                                 Alterar
                                                             </a>
                                                             <a href=""
-                                                                class="edu-btn edu-btn-link edu-btn-danger edu-fw-bld edu-mg-r-0">
+                                                                class="edu-btn edu-btn-link change-delete-color edu-btn-danger edu-fw-bld edu-mg-r-0">
                                                                 Excluir
                                                             </a>
                                                         </td>
@@ -351,11 +351,11 @@
                                                         <td class="edu-tbl__data">12/12/1982</td>
                                                         <td class="edu-tbl__data actions">
                                                             <a href=""
-                                                                class="edu-btn edu-btn-link edu-btn-secondary edu-fw-bld edu-mg-r-10">
+                                                                class="edu-btn edu-btn-link change-edit-color edu-btn-secondary edu-fw-bld edu-mg-r-10">
                                                                 Alterar
                                                             </a>
                                                             <a href=""
-                                                                class="edu-btn edu-btn-link edu-btn-danger edu-fw-bld edu-mg-r-0">
+                                                                class="edu-btn edu-btn-link change-delete-color edu-btn-danger edu-fw-bld edu-mg-r-0">
                                                                 Excluir
                                                             </a>
                                                         </td>
@@ -366,11 +366,11 @@
                                                         <td class="edu-tbl__data">12/12/1982</td>
                                                         <td class="edu-tbl__data actions">
                                                             <a href=""
-                                                                class="edu-btn edu-btn-link edu-btn-secondary edu-fw-bld edu-mg-r-10">
+                                                                class="edu-btn edu-btn-link change-edit-color edu-btn-secondary edu-fw-bld edu-mg-r-10">
                                                                 Alterar
                                                             </a>
                                                             <a href=""
-                                                                class="edu-btn edu-btn-link edu-btn-danger edu-fw-bld edu-mg-r-0">
+                                                                class="edu-btn edu-btn-link change-delete-color edu-btn-danger edu-fw-bld edu-mg-r-0">
                                                                 Excluir
                                                             </a>
                                                         </td>

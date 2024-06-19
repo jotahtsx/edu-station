@@ -11,14 +11,43 @@ body.edu-theme-dark {
   --sidebar-empl-of-month-bg-clr: rgba(52, 66, 111, 0.8);
   /* Navbar */
   --navbar-bg-clr: var(--edu-dark-200-clr);
-  /* Card */
+  /* Cards */
   --card-bg-clr: var(--edu-dark-200-clr);
-  /* Table */
+  /* Tabelas */
   --tbl-header-bg-clr: var(--edu-dark-400-clr);
-  /* Typography */
+  /* Tipografia */
   --global-text-clr: var(--edu-gray-50-clr);  
-  /* Form */
+  /* Formulários */
   --input-bg-clr: var(--edu-dark-300-clr);
   --input-brdr-clr: var(--edu-primary-clr);
   --btn-icon-hvr-bg: var(--edu-dark-300-clr);
+}
+
+body.edu-theme-dark .edu-card__header {
+  border: none;
+}
+
+body.edu-theme-dark .edu-card__header {
+  border: none;
+}
+
+body.edu-theme-dark .edu-tbl{
+  border: none;
+}
+
+body.edu-theme-dark .edu-tbl  a {
+  color: #fff;
+}
+
+body.edu-theme-dark .edu-btn {
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, .5);
+}
+
+body.edu-theme-dark .edu-card__show {
+ border-bottom: 1px solid var(--edu-gray-600-clr); 
+}
+
+body.edu-theme-dark .edu-tbl__row:not(:last-of-type) {
+  border-bottom: 1px solid var(--edu-gray-600-clr); 
 }

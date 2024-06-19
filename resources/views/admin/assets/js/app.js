@@ -112,8 +112,21 @@ const lightDarkTheme = () => {
     currentTheme = themeSwitcher.getAttribute("data-current-theme")
     currentTheme === "light" ? themeSwitcher.dataset.currentTheme = "dark" : 
     themeSwitcher.dataset.currentTheme = "light"
-    console.log(currentTheme)
+    currentTheme = themeSwitcher.getAttribute("data-current-theme")
+    currentTheme = window.localStorage.setItem("theme", currentTheme)
+    document.body.classList.toggle('edu-theme-dark')
   })
+
+  currentTheme = window.localStorage.getItem("theme")
+
+  if(currentTheme === "light") {
+    document.body.classList.remove(`edu-theme-${currentTheme}`)
+    themeSwitcher.dataset.currentTheme = "light"
+    return
+  }
+    document.body.classList.add(`edu-theme-${currentTheme}`)
+    themeSwitcher.dataset.currentTheme = "dark"
+
 }
 
 lightDarkTheme()
