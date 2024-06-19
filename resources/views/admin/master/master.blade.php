@@ -30,7 +30,7 @@
                             </button>
                         </div>
                     </div>
-                    <ul class="edu-header__navitems edu-header__sidebar-md-3 edu-header__sidebar-lg-2" id="main-menu">
+                    <ul class="edu-header__navitems edu-header__sidebar-md-3 edu-header__sidebar-md-2" id="main-menu">
 
                         <li class="edu-header__list">
                             <a href="{{ route('admin.home') }}"

@@ -32,7 +32,6 @@ const closeComponents = (type, event, variables) => {
     const menu = comp.querySelector(`.${variables.menu}`)
     if (menu.classList.contains(variables.active)) menu.classList.remove(variables.active)
   })
-
 }
 
 const dropdown = () => {
@@ -126,7 +125,6 @@ const lightDarkTheme = () => {
   }
     document.body.classList.add(`edu-theme-${currentTheme}`)
     themeSwitcher.dataset.currentTheme = "dark"
-
 }
 
 lightDarkTheme()
