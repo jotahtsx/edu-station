@@ -21,7 +21,7 @@ const operateNavigations = (type, target, variables) => {
 
 }
 
-// Closing components
+// Fechando componentes - Closing components
 const closeComponents = (type, event, variables) => {
 
   const target = type === "dropdown" ? event.target.closest(`.${variables.menu}`) || event.target.closest(`[${variables.target}]`) : event.target.closest(`.${variables.menu}`) || event.target.closest(`.${variables.target}`)
@@ -100,3 +100,20 @@ const navbar = () => {
 }
 
 navbar()
+
+const lightDarkTheme = () => {
+  const themeSwitcher = document.querySelector(".theme-switcher")
+
+  if(!themeSwitcher) return
+
+  let currentTheme
+
+  themeSwitcher.addEventListener("click", () => {
+    currentTheme = themeSwitcher.getAttribute("data-current-theme")
+    currentTheme === "light" ? themeSwitcher.dataset.currentTheme = "dark" : 
+    themeSwitcher.dataset.currentTheme = "light"
+    console.log(currentTheme)
+  })
+}
+
+lightDarkTheme()

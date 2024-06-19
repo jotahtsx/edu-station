@@ -81,7 +81,7 @@
                     <div class="edu-header__right edu-d-flex e-align-center">
 
                         <div class="theme-control edu-mg-r-10">
-                            <button type="button" class="theme-switcher edu-btn-icon" data-current-theme="light">
+                            <button type="button" class="theme-switcher edu-btn-icon" data-current-theme="dark">
                                 <i class="ri-moon-line theme-dark"></i>
                                 <i class="ri-sun-line theme-light"></i>
                             </button>
