@@ -446,10 +446,6 @@ h6, .edu-h6 {
   margin-bottom: 0.5rem;
 }
 
-.faded-text, .section-heading .subtitle {
-  color: var(--faded-text-clr);
-}
-
 .bdg {
   width: 3rem;
 }

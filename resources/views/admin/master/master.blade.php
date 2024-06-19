@@ -140,11 +140,11 @@
                                     </a>
                                 </div>
 
-                            </div><!-- .e-dropdown__menu ends -->
+                            </div>
 
-                        </div><!-- e-dropdown ends -->
+                        </div>
 
-                    </div><!-- .e-header__right ends -->
+                    </div>
                 </nav>
             </div>
         </div>
@@ -229,7 +229,7 @@
                                         <div class="left-side">
                                             <h2 class="edu-mg-b-10">12</h2>
                                             <p class="edu-fs-12 edu-d-flex edu-align-center">
-                                                <span class="faded-text">Disciplinas cadastrados</span>
+                                                <span class="faded-text">Disciplinas cadastradas</span>
                                             </p>
                                         </div>
 
