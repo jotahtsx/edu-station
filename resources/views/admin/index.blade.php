@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
     <title>{{ config('app.name') }}</title>
 </head>
 
@@ -17,9 +20,9 @@
     <section class="area-login">
         <div class="login">
             <img class="login-brand" src="{{ url(asset('backend/assets/images/logo.svg')) }}" />
-            <form method="POST">
+            <form name="login" method="POST" action="{{ route('admin.login.do') }}" autocomplete="off">
                 <input type="text" name="email" placeholder="Seu email" onfocus />
-                <input type="password" name="password" placeholder="Sua senha" />
+                <input type="password" name="password_check" placeholder="Sua senha" />
                 <button class="login-do" type="submit">Fazer Login</button>
                 <a class="register" href="">Primeira vez aqui?</a>
                 <a class="recover" href="">Esqueceu a senha?</a>
