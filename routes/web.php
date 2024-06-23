@@ -10,7 +10,10 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], fu
     Route::post('login', [AuthController::class, 'login'])->name('login.do');
 
     /** Rotas protegidas */
-    Route::get('home', [AuthController::class, 'home'])->name('home');
+    Route::group(['middleware' => ['auth']], function() {
+        Route::get('home', [AuthController::class, 'home'])->name('home');
+    });
+    
 
     /** Sair do sistema */
     Route::get('sair', [AuthController::class, 'logout'])->name('logout');
