@@ -37,13 +37,6 @@
                     @include('admin.includes.sidebar-nav')
                     <div class="edu-header__right edu-d-flex e-align-center">
 
-                        <div class="theme-control edu-mg-r-10">
-                            <button type="button" class="theme-switcher edu-btn-icon" data-current-theme="dark">
-                                <i class="ri-moon-line theme-dark"></i>
-                                <i class="ri-sun-line theme-light"></i>
-                            </button>
-                        </div>
-
                         <div class="edu-dropdown edu-dropdown-abs-right edu-d-in-flex edu-align-center">
 
                             <button type="button" class="edu-avat edu-avat-35" data-dropdown-target="profile">
@@ -54,9 +47,7 @@
                             <div class="edu-dropdown__menu" id="profile">
 
                                 <div class="dropdown-header edu-pd-20">
-
                                     <div class="edu-d-flex edu-align-center">
-
                                         <div class="user-img edu-mg-r-10">
                                             <div class="edu-avat edu-avat-40">
                                                 <img src="{{ asset('backend/assets/images/user-f-1.jpg') }}"
@@ -74,7 +65,6 @@
                                 </div>
 
                                 <ul class="dropdown-content">
-
                                     <li class="dropdown-list">
                                         <a href="#"
                                             class="dropdown-link edu-d-flex edu-align-center edu-pd-x-20 edu-pd-y-10">
@@ -84,7 +74,6 @@
                                             </span>
                                         </a>
                                     </li>
-
                                 </ul>
 
                                 <div class="dropdown-footer">

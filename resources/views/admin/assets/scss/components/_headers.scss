@@ -23,31 +23,6 @@
     }
   }
 
-  // Theme switcher
-  .theme-control {
-    .theme-light,
-    .theme-dark {
-      display: none;
-    }
-
-    [data-current-theme="light"] {
-      .theme-light {
-        display: none;
-      }
-      .theme-dark {
-        display: block;
-      }
-    }
-    [data-current-theme="dark"] {
-      .theme-dark {
-        display: none;
-      }
-      .theme-light {
-        display: block;
-      }
-    }
-  }
-
   #profile {
     top: calc(var(--default-navbar-height) - 1rem);
   }
@@ -59,7 +34,6 @@
 
     .dropdown-footer {
       background-color: transparent;
-      border-top: 0.1rem solid var(--brdr-clr);
     }
   }
 
