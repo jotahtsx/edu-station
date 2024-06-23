@@ -41,6 +41,7 @@ class AuthController extends Controller
             return response()->json($json);
         }
 
-        var_dump($request->all());
+        $json['redirect'] = route('admin.home');
+        return response()->json($json);
     }
 }

@@ -7,7 +7,7 @@ $(function () {
   })
 
   $('form[name="login"]').submit(function(event){
-    event.preventDefault();
+    event.preventDefault()
 
     const form = $(this)
     const action = form.attr('action')
@@ -21,6 +21,10 @@ $(function () {
         ajaxMessage(response.message, 3)
       }
 
+      if(response.redirect) {
+        window.location.href = response.redirect
+      }
+
     }, 'json')
   })
   
@@ -28,17 +32,17 @@ $(function () {
       var ajaxResponseBaseTime = 3;
 
       function ajaxMessage(message, time) {
-          var ajaxMessage = $(message);
+          var ajaxMessage = $(message)
   
-          ajaxMessage.append("<div class='message_time'></div>");
+          ajaxMessage.append("<div class='message_time'></div>")
           ajaxMessage.find(".message_time").animate({"width": "100%"}, time * 1000, function () {
-              $(this).parents(".message").fadeOut(200);
+              $(this).parents(".message").fadeOut(200)
           });
   
-          $(".ajax_response").append(ajaxMessage);
+          $(".ajax_response").append(ajaxMessage)
       }
   
       $(".ajax_response .message").each(function (e, m) {
-          ajaxMessage(m, ajaxResponseBaseTime += 1);
+          ajaxMessage(m, ajaxResponseBaseTime += 1)
       });
 })
