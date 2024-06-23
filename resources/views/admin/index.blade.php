@@ -24,7 +24,7 @@
             <img class="login-brand" src="{{ url(asset('backend/assets/images/logo.svg')) }}" />
             <form name="login" method="POST" action="{{ route('admin.login.do') }}" autocomplete="off">
                 <input type="text" name="email" placeholder="Seu email" onfocus />
-                <input type="password" name="password_check" placeholder="Sua senha" />
+                <input type="password" name="password" placeholder="Sua senha" />
                 <button class="login-do" type="submit">Fazer Login</button>
                 <a class="register" href="">Primeira vez aqui?</a>
                 <a class="recover" href="">Esqueceu a senha?</a>
