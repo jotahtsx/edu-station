@@ -135,7 +135,7 @@
                                 </ul>
 
                                 <div class="dropdown-footer">
-                                    <a href="#"
+                                    <a href="{{ route('admin.logout') }}"
                                         class="dropdown-link edu-d-flex edu-align-center edu-pd-x-20 edu-pd-y-10">
                                         <i class="ri-logout-box-r-line edu-fs-18 edu-mg-r-10"></i>
                                         <span class="edu-fs-14 edu-fw-bld">
