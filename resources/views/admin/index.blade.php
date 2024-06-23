@@ -17,6 +17,8 @@
 
 <body>
 
+    <div class="ajax_response"></div>
+
     <section class="area-login">
         <div class="login">
             <img class="login-brand" src="{{ url(asset('backend/assets/images/logo.svg')) }}" />

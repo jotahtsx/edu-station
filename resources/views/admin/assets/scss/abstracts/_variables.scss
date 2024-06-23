@@ -305,11 +305,16 @@ $containers: (
 );
 
 /* ************** COMPONENTES ************** */
-
-
-// ========= Buttons ============ //
+// ========= Botões ============ //
 $buttons: default primary secondary success warn danger;
 // ========= Badges ============ //
 $badges: secondary success warn danger;
 // ========= Avatar ============ //
 $avatars: 30 35 40 45 50;
+/**
+SISTEMA DE SOBREPROSIÇÃO
+ */
+ $index-back: -1;
+ $index-fold: 2;
+ $index-menu: 3;
+ $index-modal: 4;
