@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="dark">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="utf-8">
@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <link href="//cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css" rel="stylesheet">
+
     <!-- Estilo principal -->
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/icons.css')) }}">
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/main.css')) }}">
@@ -23,7 +25,7 @@
 <body>
 
     <header class="edu-header edu-header-fixed edu-d-flex edu-justify-between edu-align-center">
-        <div class="edu-container">
+        <div class="edu-content">
             <div class="edu-offset-12 edu-offset-md-3 edu-offset-lg-2">
                 <nav class="edu-header__nav edu-d-flex edu-justify-between edu-align-center">
                     <div class="edu-header__left edu-d-flex edu-align-center edu-mg-r-10 edu-mg-r-0-md">
@@ -85,11 +87,8 @@
                                         </span>
                                     </a>
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
                 </nav>
             </div>
@@ -101,6 +100,7 @@
     </main>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
+    <script src="//cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
     <script src="{{ url(mix('backend/assets/js/app.js')) }}"></script>
 </body>
 

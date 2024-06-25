@@ -1,9 +1,10 @@
 <?php
 
 use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\PrincipalController;
 use Illuminate\Support\Facades\Route;
 
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], function () {
+Route::prefix('admin')->name('admin.')->group(function () {
     
     /** Formulário de Login */
     Route::get('/', [AuthController::class, 'showLoginForm'])->name('login');
@@ -12,6 +13,9 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], fu
     /** Rotas protegidas */
     Route::group(['middleware' => ['auth']], function() {
         Route::get('home', [AuthController::class, 'home'])->name('home');
+
+        //Direção
+        Route::resource('direcao', PrincipalController::class);
     });
     
 

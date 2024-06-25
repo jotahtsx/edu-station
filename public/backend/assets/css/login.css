@@ -1,1 +1,355 @@
-:root{--edu-primary-clr:#34426f;--edu-primary-100-clr:#a9b0c2;--edu-primary-200-clr:#a0a8bc;--edu-primary-300-clr:#969fb5;--edu-primary-400-clr:#2f3c65;--edu-primary-500-clr:#181f34;--edu-primary-600-clr:#161c2f;--edu-secondary-clr:#7d83ff;--edu-secondary-100-clr:#bdbfff;--edu-secondary-200-clr:#c3c5ff;--edu-secondary-300-clr:#c8caff;--edu-secondary-400-clr:#414384;--edu-secondary-500-clr:#3b3d78;--edu-secondary-600-clr:#36376d;--edu-warn-clr:#fd8b49;--edu-warn-100-clr:#fdc4a1;--edu-warn-200-clr:#fdc9aa;--edu-warn-300-clr:#fdceb2;--edu-warn-400-clr:#fda977;--edu-warn-500-clr:#fda069;--edu-warn-600-clr:#fd965a;--edu-success-clr:#5fab76;--edu-success-100-clr:#add4b8;--edu-success-200-clr:#b4d8be;--edu-success-300-clr:#bbdcc4;--edu-success-400-clr:#87c097;--edu-success-500-clr:#7bba8d;--edu-success-600-clr:#6eb382;--edu-info-clr:#4a529d;--edu-info-100-clr:#9faac4;--edu-info-200-clr:#a8b2c9;--edu-info-300-clr:#b0b9ce;--edu-info-400-clr:#7184a9;--edu-info-500-clr:#6378a0;--edu-info-600-clr:#536b97;--edu-danger-clr:#c44f4f;--edu-danger-100-clr:#c098a2;--edu-danger-200-clr:#c6a1aa;--edu-danger-300-clr:#cbaab2;--edu-danger-400-clr:#a36978;--edu-danger-500-clr:#9a5a6a;--edu-danger-600-clr:#a85661;--edu-gray-clr:#f3f3f9;--edu-gray-50-clr:#fefefe;--edu-gray-100-clr:#fafafa;--edu-gray-200-clr:#f5f5fa;--edu-gray-300-clr:#f7f7fa;--edu-gray-400-clr:#dddde2;--edu-gray-500-clr:#c9c9cd;--edu-gray-600-clr:#9191a1;--edu-dark-clr:#212529;--edu-dark-100-clr:#adb5bd;--edu-dark-200-clr:#6c757a;--edu-dark-300-clr:#4d5057;--edu-dark-400-clr:#343a40;--global-bg-clr:var(--edu-gray-clr);--sidebar-bg-clr:var(--edu-primary-clr);--sidebar-menu-item-clr:var(--edu-gray-50-clr);--sidebar-menu-item-hvr-bg-clr:var(--edu-primary-400-clr);--sidebar-menu-item-active-brd-clr:var(--edu-secondary-clr);--sidebar-menu-title-clr:var(--edu-gray-500-clr);--sidebar-empl-of-month-bg-clr:rgba(52,66,111,.8);--navbar-bg-clr:var(--edu-gray-50-clr);--card-bg-clr:var(--edu-gray-50-clr);--brdr-clr:var(--edu-gray-300-clr);--tbl-header-bg-clr:var(--edu-gray-100-clr);--global-text-clr:var(--edu-primary-600-clr);--faded-text-clr:var(--edu-gray-500-clr);--link-clr:var(--edu-secondary-clr);--default-icon-clr:var(--edu-primary-600-clr);--default-icon-hvr-bg-clr:var(--edu-gray-clr);--bdg-success-bg-clr:var(--edu-success-100-clr);--bdg-success-text-clr:var(--edu-success-clr);--bdg-secondary-bg-clr:var(--edu-secondary-100-clr);--bdg-secondary-text-clr:var(--edu-secondary-clr);--bdg-warn-bg-clr:var(--edu-warn-100-clr);--bdg-warn-text-clr:var(--edu-warn-clr);--bdg-danger-bg-clr:var(--edu-danger-100-clr);--bdg-danger-text-clr:var(--edu-danger-clr);--bdg-blue-text-clr:var(--edu-info-clr);--input-bg-clr:var(--edu-gray-clr);--input-brdr-clr:var(--edu-primary-clr);--textarea-bg-clr:transparent;--textarea-brdr-clr:var(--edu-gray-clr);--btn-default-bg-clr:var(--edu-primary-400-clr);--btn-default-text-clr:var(--edu-gray-50-clr);--btn-primary-bg-clr:var(--edu-primary-100-clr);--btn-primary-text-clr:var(--edu-primary-clr);--btn-secondary-bg-clr:var(--edu-secondary-100-clr);--btn-secondary-text-clr:var(--edu-secondary-clr);--btn-success-bg-clr:var(--edu-success-100-clr);--btn-success-text-clr:var(--edu-success-clr);--btn-warn-bg-clr:var(--edu-warn-100-clr);--btn-warn-text-clr:var(--edu-warn-clr);--btn-danger-bg-clr:var(--edu-danger-100-clr);--btn-danger-text-clr:var(--edu-danger-clr);--btn-icon-hvr-bg:var(--edu-gray-clr);--base-font-size:62.5%;--heading-font-family:"Raleway",sans-serif;--body-font-family:"Raleway",sans-serif;--heading-1:2.8rem;--heading-2:2.4rem;--heading-3:2rem;--heading-4:1.8rem;--heading-5:1.6rem;--heading-6:1.6rem;--paragraph-size:1.4rem;--card-title:1.6rem;--small-text:1.2rem;--menu-item:1.4rem;--icon-size:1.4rem;--dropdown-item:1.3rem;--bdg-size:1rem;--btn-size:1.4rem;--heading-line-height:1.4;--default-line-height:1.5;--font-weight-regular:400;--font-weight-medium:500;--font-weight-bold:700;--spacing-0:0;--spacing-xs:0.8rem;--spacing-sm:1rem;--spacing-md:1.2rem;--spacing-lg:1.4rem;--spacing-xl:1.6rem;--spacing-18:1.8rem;--spacing-20:2rem;--container-default:90%;--container-sm:87.5rem;--container-md:121.5rem;--container-lg:131.5rem;--container-xl:156rem;--default-brd-rad:0.4rem;--default-btn-padding:0.9rem 3rem;--default-btn-sm-padding:0.6rem 2rem;--default-bdg-padding:0.4rem 1.2rem;--default-input-padding:0.9rem 3rem;--default-dropdown-width:22.5rem;--default-dropdown-mx-height:35rem;--default-navbar-height:6rem;--default-sidebar-nav-width:25rem}body{background-color:#1b1f27;font-family:Raleway,sans-serif;overflow:hidden}.area-login{height:100vh;justify-content:center}.area-login,.login{align-items:center;display:flex}.login{background-color:#181920;border-radius:10px;flex-direction:column;height:320px;padding:35px;width:355px}.login .login-brand{width:175px}.login form{display:flex;flex-direction:column;width:100%}.login form input{background-color:#252a34;border:none;border-radius:8px;color:#cbd0f7;font-family:Raleway,sans-serif;height:45px;margin-top:10px;outline:none;padding-left:10px}.login form input::-moz-placeholder{color:#cbd0f7;font-size:14px}.login form input::placeholder{color:#cbd0f7;font-size:14px}.login form a{color:#ccc;display:block;font-size:.7em;text-align:center;text-decoration:none;text-transform:uppercase}.login form .register,.login form a{margin:30px 0 0}.login form .recover{margin:15px 0 0}.login form .login-do{background-color:#3498db;border:none;border-radius:8px;color:#fff;cursor:pointer;display:block;font-size:18px;font-weight:700;margin-top:12px;padding:15px 20px;text-shadow:1px 1px rgba(0,0,0,.5);text-transform:uppercase}.login img{height:auto;margin-bottom:10px;width:175px}.ajax_load{background:rgba(0,0,0,.5);display:none;height:100%;left:0;position:fixed;top:0;width:100%;z-index:8}.ajax_load .ajax_load_box{color:#fff;font-weight:700;margin:auto;text-align:center;text-shadow:1px 1px 1px rgba(0,0,0,.5)}.ajax_load .ajax_load_box_title{font-weight:600;margin-top:15px}.ajax_load .ajax_load_box_circle{animation:spin 1.2s linear infinite;border-top:16px solid #f4645f!important;border:16px solid #e3e3e3;border-radius:50%;height:80px;margin:auto;width:80px}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.ajax_response{max-width:100%;padding:20px 20px 0 0;position:fixed;right:30px;top:0;width:300px;z-index:6}.ajax_response .message{align-items:center;background:#999;border-radius:4px;color:#fff;cursor:pointer;display:flex;font-size:1.1rem;font-weight:600;margin-bottom:15px;overflow:hidden;padding:15px 15px 20px;position:relative;width:100%}.ajax_response .message:before{color:rgba(0,0,0,.5);flex-basis:0%;font-size:2.4em;margin:-5px 15px 0 0!important}.ajax_response .message.success{background:#36ba9b}.ajax_response .message.info{background:#39aed9}.ajax_response .message.warning{background:#f5b946}.ajax_response .message.error{background:#d94352}.ajax_response .message_time{background:rgba(0,0,0,.5);bottom:0;content:"";height:5px;left:0;position:absolute;width:4%}@media (max-width:30em){.ajax_response{padding:20px 20px 0;right:30px;width:200px}.ajax_response .message{font-size:.7rem}}
+@charset "UTF-8";
+:root {
+  --edu-primary-clr: #34426f;
+  --edu-primary-100-clr: #a9b0c2;
+  --edu-primary-200-clr: #a0a8bc;
+  --edu-primary-300-clr: #969fb5;
+  --edu-primary-400-clr: #2f3c65;
+  --edu-primary-500-clr: #181f34;
+  --edu-primary-600-clr: #161c2f;
+  --edu-secondary-clr: #7d83ff;
+  --edu-secondary-100-clr: #bdbfff;
+  --edu-secondary-200-clr: #c3c5ff;
+  --edu-secondary-300-clr: #c8caff;
+  --edu-secondary-400-clr: #414384;
+  --edu-secondary-500-clr: #3b3d78;
+  --edu-secondary-600-clr: #36376d;
+  --edu-warn-clr: #fd8b49;
+  --edu-warn-100-clr: #fdc4a1;
+  --edu-warn-200-clr: #fdc9aa;
+  --edu-warn-300-clr: #fdceb2;
+  --edu-warn-400-clr: #fda977;
+  --edu-warn-500-clr: #fda069;
+  --edu-warn-600-clr: #fd965a;
+  --edu-success-clr: #5fab76;
+  --edu-success-100-clr: #add4b8;
+  --edu-success-200-clr: #b4d8be;
+  --edu-success-300-clr: #bbdcc4;
+  --edu-success-400-clr: #87c097;
+  --edu-success-500-clr: #7bba8d;
+  --edu-success-600-clr: #6eb382;
+  --edu-info-clr: #4a529d;
+  --edu-info-100-clr: #9faac4;
+  --edu-info-200-clr: #a8b2c9;
+  --edu-info-300-clr: #b0b9ce;
+  --edu-info-400-clr: #7184a9;
+  --edu-info-500-clr: #6378a0;
+  --edu-info-600-clr: #536b97;
+  --edu-danger-clr: #c44f4f;
+  --edu-danger-100-clr: #c098a2;
+  --edu-danger-200-clr: #c6a1aa;
+  --edu-danger-300-clr: #cbaab2;
+  --edu-danger-400-clr: #a36978;
+  --edu-danger-500-clr: #9a5a6a;
+  --edu-danger-600-clr: #a85661;
+  --edu-gray-clr: #f3f3f9;
+  --edu-gray-50-clr: #fefefe;
+  --edu-gray-100-clr: #fafafa;
+  --edu-gray-200-clr: #f5f5fa;
+  --edu-gray-300-clr: #f7f7fa;
+  --edu-gray-400-clr: #dddde2;
+  --edu-gray-500-clr: #c9c9cd;
+  --edu-gray-600-clr: #9191a1;
+  --edu-dark-clr: #212529;
+  --edu-dark-100-clr: #adb5bd;
+  --edu-dark-200-clr: #6c757a;
+  --edu-dark-300-clr: #4d5057;
+  --edu-dark-400-clr: #343a40;
+  /* ************** CORES ************** */
+  --global-bg-clr: var(--edu-gray-clr);
+  /* Sidebar */
+  --sidebar-bg-clr: var(--edu-primary-clr);
+  --sidebar-menu-item-clr: var(--edu-gray-50-clr);
+  --sidebar-menu-item-hvr-bg-clr: var(--edu-primary-400-clr);
+  --sidebar-menu-item-active-brd-clr: var(--edu-secondary-clr);
+  --sidebar-menu-title-clr: var(--edu-gray-500-clr);
+  --sidebar-empl-of-month-bg-clr: rgba(52, 66, 111, 0.8);
+  /* Navbar */
+  --navbar-bg-clr: var(--edu-gray-50-clr);
+  /* Card */
+  --card-bg-clr: var(--edu-gray-50-clr);
+  /* Border */
+  --brdr-clr: var(--edu-gray-300-clr);
+  /* Table */
+  --tbl-header-bg-clr: var(--edu-gray-100-clr);
+  /* Typography */
+  --global-text-clr: var(--edu-primary-600-clr);
+  --faded-text-clr: var(--edu-gray-500-clr);
+  --link-clr: var(--edu-secondary-clr);
+  /* Icon */
+  --default-icon-clr: var(--edu-primary-600-clr);
+  --default-icon-hvr-bg-clr: var(--edu-gray-clr);
+  /* Badges */
+  --bdg-success-bg-clr: var(--edu-success-100-clr);
+  --bdg-success-text-clr: var(--edu-success-clr);
+  --bdg-secondary-bg-clr: var(--edu-secondary-100-clr);
+  --bdg-secondary-text-clr: var(--edu-secondary-clr);
+  --bdg-warn-bg-clr: var(--edu-warn-100-clr);
+  --bdg-warn-text-clr: var(--edu-warn-clr);
+  --bdg-danger-bg-clr: var(--edu-danger-100-clr);
+  --bdg-danger-text-clr: var(--edu-danger-clr);
+  --bdg-blue-text-clr: var(--edu-info-clr);
+  /* Form */
+  --input-bg-clr: var(--edu-gray-clr);
+  --input-brdr-clr: var(--edu-primary-clr);
+  --textarea-bg-clr: transparent;
+  --textarea-brdr-clr: var(--edu-gray-clr);
+  /* Button */
+  --btn-default-bg-clr: var(--edu-primary-400-clr);
+  --btn-default-text-clr: var(--edu-gray-50-clr);
+  --btn-primary-bg-clr: var(--edu-primary-100-clr);
+  --btn-primary-text-clr: var(--edu-primary-clr);
+  --btn-secondary-bg-clr: var(--edu-secondary-100-clr);
+  --btn-secondary-text-clr: var(--edu-secondary-clr);
+  --btn-success-bg-clr: var(--edu-success-100-clr);
+  --btn-success-text-clr: var(--edu-success-clr);
+  --btn-warn-bg-clr: var(--edu-warn-100-clr);
+  --btn-warn-text-clr: var(--edu-warn-clr);
+  --btn-danger-bg-clr: var(--edu-danger-100-clr);
+  --btn-danger-text-clr: var(--edu-danger-clr);
+  --btn-icon-hvr-bg: var(--edu-gray-clr);
+  /* ************** TIPOGRAFIA ************** */
+  --base-font-size: 62.5%;
+  --heading-font-family: "Raleway", sans-serif;
+  --body-font-family: "Raleway", sans-serif;
+  --heading-1: 2.8rem;
+  --heading-2: 2.4rem;
+  --heading-3: 2rem;
+  --heading-4: 1.8rem;
+  --heading-5: 1.6rem;
+  --heading-6: 1.6rem;
+  --paragraph-size: 1.4rem;
+  --card-title: 1.6rem;
+  --small-text: 1.2rem;
+  --menu-item: 1.4rem;
+  --icon-size: 1.4rem;
+  --dropdown-item: 1.3rem;
+  --bdg-size: 1rem;
+  --btn-size: 1.4rem;
+  --heading-line-height: 1.4;
+  --default-line-height: 1.5;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  /* ************** ESPAÇAMENTOS ************** */
+  --spacing-0: 0;
+  --spacing-xs: 0.8rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.2rem;
+  --spacing-lg: 1.4rem;
+  --spacing-xl: 1.6rem;
+  --spacing-18: 1.8rem;
+  --spacing-20: 2rem;
+  /* ************** LAYOUT ************** */
+  --content-default: 90%;
+  --content-sm: 87.5rem;
+  --content-md: 121.5rem;
+  --content-lg: 131.5rem;
+  --content-xl: 156rem;
+  /* ************** COMPONENTES ************** */
+  --default-brd-rad: 0.4rem;
+  --default-btn-padding: 0.9rem 3rem;
+  --default-btn-sm-padding: 0.6rem 2rem;
+  --default-bdg-padding: 0.4rem 1.2rem;
+  --default-input-padding: 0.9rem 3rem;
+  --default-dropdown-width: 22.5rem;
+  --default-dropdown-mx-height: 35rem;
+  --default-navbar-height: 6rem;
+  --default-sidebar-nav-width: 25rem;
+}
+
+/* ************** TIPOGRAFIA ************** */
+/* ************** ESPAÇAMENTOS ************** */
+/* ************** LAYOUT ************** */
+/* ************** COMPONENTES ************** */
+/**
+SISTEMA DE SOBREPROSIÇÃO
+ */
+body {
+  background-color: #1b1f27;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
+}
+
+.area-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181920;
+  width: 355px;
+  height: 320px;
+  padding: 35px;
+  border-radius: 10px;
+}
+.login .login-brand {
+  width: 175px;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.login form input {
+  margin-top: 10px;
+  height: 45px;
+  background-color: #252A34;
+  color: #CBD0F7;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.login form input::-moz-placeholder {
+  color: #CBD0F7;
+  font-size: 14px;
+}
+.login form input::placeholder {
+  color: #CBD0F7;
+  font-size: 14px;
+}
+.login form a {
+  display: block;
+  text-align: center;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  color: #ccc;
+  text-decoration: none;
+  margin: 30px 0 0 0;
+}
+.login form .register {
+  margin: 30px 0 0 0;
+}
+.login form .recover {
+  margin: 15px 0 0 0;
+}
+.login form .login-do {
+  display: block;
+  background-color: #3498db;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  margin-top: 12px;
+  padding: 15px 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.login img {
+  width: 175px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ajax_load {
+  z-index: 8;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.ajax_load .ajax_load_box {
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.ajax_load .ajax_load_box_title {
+  margin-top: 15px;
+  font-weight: 600;
+}
+.ajax_load .ajax_load_box_circle {
+  border-top: 16px solid #F4645F !important;
+  border: 16px solid #e3e3e3;
+  border-radius: 50%;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  animation: spin 1.2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ajax_response {
+  z-index: 6;
+  position: fixed;
+  padding: 20px 20px 0 0;
+  top: 0;
+  right: 30px;
+  width: 300px;
+  max-width: 100%;
+}
+.ajax_response .message {
+  background: #999;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px 15px 20px 15px;
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+.ajax_response .message:before {
+  flex-basis: 0%;
+  margin: -5px 15px 0 0 !important;
+  font-size: 2.4em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.ajax_response .message.success {
+  background: #36BA9B;
+}
+.ajax_response .message.info {
+  background: #39AED9;
+}
+.ajax_response .message.warning {
+  background: #F5B946;
+}
+.ajax_response .message.error {
+  background: #D94352;
+}
+.ajax_response .message_time {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 4%;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 30em) {
+  .ajax_response {
+    width: 200px;
+    padding: 20px 20px 0 20px;
+    right: 30px;
+  }
+  .ajax_response .message {
+    font-size: 0.7rem;
+  }
+}

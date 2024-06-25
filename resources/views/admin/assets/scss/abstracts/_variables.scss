@@ -215,11 +215,11 @@ $edu-colors: (
   --spacing-20: 2rem;
 
   /* ************** LAYOUT ************** */
-  --container-default: 90%;
-  --container-sm: 87.5rem;
-  --container-md: 121.5rem;
-  --container-lg: 131.5rem;
-  --container-xl: 156rem;
+  --content-default: 90%;
+  --content-sm: 87.5rem;
+  --content-md: 121.5rem;
+  --content-lg: 131.5rem;
+  --content-xl: 156rem;
 
   /* ************** COMPONENTES ************** */
   --default-brd-rad: 0.4rem;
@@ -297,11 +297,11 @@ $breakpoints-up: (
 $default-gutter: 1.5rem;
 $total-cols: 12;
 
-$containers: (
-  sm: var(--container-sm),
-  md: var(--container-md),
-  lg: var(--container-lg),
-  xl: var(--container-xl),
+$contents: (
+  sm: var(--content-sm),
+  md: var(--content-md),
+  lg: var(--content-lg),
+  xl: var(--content-xl),
 );
 
 /* ************** COMPONENTES ************** */

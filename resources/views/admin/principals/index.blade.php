@@ -1,19 +1,16 @@
 @extends('admin.master.master')
-@section('title', 'Home')
+@section('title', 'Direção')
 @section('content')
+
     <div class="content">
         <div class="edu-content">
+
             <div class="edu-offset-12 odu-offset-md-3 edu-offset-lg-2">
+
                 <div class="section-heading edu-pd-y-20">
-                    <h4 class="title">Bom dia, Grazi!</h4>
-                    <p class="subtitle">Bem vindo(a) ao seu sistema de gerenciamento</p>
+                    <h4 class="title">Direção</h4>
+                    <p class="subtitle">Liderança focada no futuro dos estudantes</p>
                 </div>
-
-                <section class="overview edu-pd-y-20">
-
-                    @include('admin.includes.dashboard-cards')
-
-                </section>
 
                 <section class="students-updates edu-pd-y-20">
                     <div class="edu-row">
@@ -21,7 +18,7 @@
                             <div class="edu-card">
 
                                 <div class="edu-card__header">
-                                    <span class="edu-card__title edu-fw-bld">Alunos</span>
+                                    <span class="edu-card__title edu-fw-bld">Direção</span>
 
                                     <div class="edu-d-flex edu-align-end">
                                         <button type="button"
@@ -126,7 +123,6 @@
                         </div>
                     </div>
                 </section>
-
             </div>
         </div>
     </div>

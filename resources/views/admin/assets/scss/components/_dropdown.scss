@@ -47,7 +47,7 @@
     right: 0;
   }
 
-  @each $break, $value in $containers {
+  @each $break, $value in $contents {
     @include respond(#{$break}) {
       &.edu-dropdown-abs-left-#{$break} &__menu {
         left: 0;

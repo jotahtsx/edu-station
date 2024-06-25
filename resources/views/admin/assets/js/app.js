@@ -99,3 +99,5 @@ const navbar = () => {
 }
 
 navbar()
+
+let eduTable = new DataTable('#eduTable')

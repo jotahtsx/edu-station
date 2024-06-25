@@ -3,14 +3,14 @@
 @use "breakpoints" as *;
 
 /**** LAYOUT E GRID *****/
-.edu-container, [class*=edu-container-] {
-  width: var(--container-default);
+.edu-content, [class*=edu-content-] {
+  width: var(--content-default);
   margin: 0 auto;
 }
 
-//Criando containers baseado no tamanho da tela
-@each $size, $value in $containers {
-  .edu-container-#{$size} {
+//Criando contents baseado no tamanho da tela
+@each $size, $value in $contents {
+  .edu-content-#{$size} {
     @include respond(#{$size}) {
       max-width: $value;
     }
@@ -37,7 +37,7 @@
     }
   }
 
-  @each $break, $value in $containers {
+  @each $break, $value in $contents {
     @include respond(#{$break}) {
       @for $i from 1 through $total-cols {
         .edu-flex-#{$break}-#{$i} {

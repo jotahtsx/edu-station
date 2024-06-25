@@ -10,7 +10,6 @@
 
   &__header {
     background-color: var(--tbl-header-bg-clr);
-
   }
   
   &__head {
@@ -33,4 +32,14 @@
       color: var(--edu-btn-success);
     }
   }
+}
+
+#eduTable {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+
+table.dataTable thead th, table.dataTable tfoot th {
+  text-align: center;
 }

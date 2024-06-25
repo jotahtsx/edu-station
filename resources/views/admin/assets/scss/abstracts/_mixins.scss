@@ -47,7 +47,7 @@
 // Creating offset grid
 @mixin offset-grid($total-cols, $responsive) {
   @if $responsive {
-    @each $break, $value in $containers {
+    @each $break, $value in $contents {
       @include respond(#{$break}) {
         @for $i from 1 through $total-cols {
           .edu-offset-#{$break}-#{$i} {
@@ -115,7 +115,7 @@
   // RESPONSIVE
   @if $responsive {
     // Looping through the breakpoint map
-    @each $break, $value in $containers {
+    @each $break, $value in $contents {
       @include respond(#{$break}) {
         // Loop through the original map
         @each $child, $value in $map {

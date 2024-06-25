@@ -15,7 +15,8 @@
     </li>
 
     <li class="edu-header__list">
-        <a href="" class="edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
+        <a href="{{ route('admin.direcao.index') }}"
+            class="{{ isActive('admin.direcao.index') }} edu-header__link edu-pd-20 edu-d-flex edu-align-center edu-justify-between">
             <span class="edu-fs-14 edu-d-flex edu-align-center"><i
                     class="ri-folders-line edu-mg-r-10"></i>Direção</span>
         </a>

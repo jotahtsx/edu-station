@@ -2,7 +2,7 @@
 @use "../abstracts/mixins" as *;
 @use "../layout/breakpoints" as *;
 
-.dashboard {
+.content {
   margin-top: var(--default-navbar-height);
 }
 

@@ -7,8 +7,12 @@ mix
 
 
   .scripts([
-    'resources/views/admin/assets/js/jquery.js'
+    'resources/views/admin/assets/js/jquery.js',
   ], 'public/backend/assets/js/jquery.js')
+
+  .scripts([
+    'resources/views/admin/assets/js/dataTables.min.js'
+  ], 'public/backend/assets/js/libs.js')
 
   .scripts([
     'resources/views/admin/assets/js/login.js'
@@ -17,6 +21,10 @@ mix
   .scripts([
     'resources/views/admin/assets/js/app.js'
   ], 'public/backend/assets/js/app.js')
+
+  .styles([
+    'resources/views/admin/assets/css/dataTables.dataTables.min.css'
+  ], 'public/backend/assets/css/libs.css')
 
 
   .copyDirectory('resources/views/admin/assets/images', 'public/backend/assets/images')

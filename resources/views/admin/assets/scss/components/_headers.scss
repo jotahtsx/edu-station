@@ -89,7 +89,7 @@
   }
 }
 
-@each $break, $value in $containers {
+@each $break, $value in $contents {
   @include respond(#{$break}) {
     @for $i from 1 through 6 {
       .edu-header__sidebar-#{$break}-#{$i} {
