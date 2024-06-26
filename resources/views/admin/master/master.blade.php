@@ -19,6 +19,7 @@
 
     <!-- Estilo principal -->
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/icons.css')) }}">
+    <link rel="stylesheet" href="{{ url(mix('backend/assets/css/libs.css')) }}">
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/main.css')) }}">
 </head>
 

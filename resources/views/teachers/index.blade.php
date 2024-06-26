@@ -1,5 +1,5 @@
 @extends('admin.master.master')
-@section('title', 'Direção')
+@section('title', 'Docente')
 @section('content')
 
     <div class="content">
@@ -21,11 +21,14 @@
                                     <span class="edu-card__title edu-fw-bld">Direção</span>
 
                                     <div class="edu-d-flex edu-align-end">
+                                        <button type="button"
+                                            class="edu-btn edu-btn-sm edu-btn-primary edu-fw-bld edu-mg-r-8 edu-pd-y-6">
+                                            Exportar
+                                        </button>
 
-                                        <a href="{{ route('admin.direcao.create') }}" type="button"
-                                            class="edu-btn edu-btn-sm edu-btn-success edu-fw-bld">
+                                        <button type="button" class="edu-btn edu-btn-sm edu-btn-success edu-fw-bld">
                                             Inserir
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
 

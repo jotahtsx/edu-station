@@ -4396,6 +4396,7 @@ h6, .edu-h6 {
 .edu-form__group {
   position: relative;
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 .edu-form__input {
   --default-input-padding: 1rem 2rem 1rem 4rem;
@@ -4415,6 +4416,20 @@ h6, .edu-h6 {
   top: 50%;
   left: 2rem;
   transform: translateY(-50%);
+}
+
+.form-definition .edu-form__group {
+  margin-bottom: 1.5rem;
+}
+.form-definition .edu-form__input {
+  border: 1px solid #CCC;
+  --default-input-padding: 1rem 2rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.form-definition .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .edu-tbl {

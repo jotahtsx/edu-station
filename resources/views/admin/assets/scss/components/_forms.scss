@@ -3,9 +3,11 @@
 
 .edu-form {
   width: 100%;
+  
   &__group {
     position: relative;
     width: 100%;
+    margin-bottom: 1.5rem;
   }
 
   &__input {
@@ -17,14 +19,36 @@
     width: 100%;
     border-radius: var(--default-brd-rad);
     @include transition;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       border-color: var(--input-brdr-clr);
     }
   }
+
   &__icon {
     position: absolute;
     top: 50%;
     left: 2rem;
     transform: translateY(-50%);
+  }
+}
+
+.form-definition {
+  .edu-form {
+    &__group {
+      margin-bottom: 1.5rem;
+    }
+
+    &__input {
+      border: 1px solid #CCC;
+      --default-input-padding: 1rem 2rem 1.5rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 }
