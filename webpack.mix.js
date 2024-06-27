@@ -11,7 +11,8 @@ mix
   ], 'public/backend/assets/js/jquery.js')
 
   .scripts([
-    'resources/views/admin/assets/js/dataTables.min.js'
+    'resources/views/admin/assets/js/dataTables.min.js',
+    'resources/views/admin/assets/js/jquery.mask.min.js',
   ], 'public/backend/assets/js/libs.js')
 
   .scripts([

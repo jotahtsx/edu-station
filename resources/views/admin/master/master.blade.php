@@ -15,8 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <link href="//cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css" rel="stylesheet">
-
     <!-- Estilo principal -->
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/icons.css')) }}">
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/libs.css')) }}">
@@ -101,7 +99,7 @@
     </main>
 
     <script src="{{ url(mix('backend/assets/js/jquery.js')) }}"></script>
-    <script src="//cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+    <script src="{{ url(mix('backend/assets/js/libs.js')) }}"></script>
     <script src="{{ url(mix('backend/assets/js/app.js')) }}"></script>
 </body>
 

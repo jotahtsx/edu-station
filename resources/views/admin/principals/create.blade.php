@@ -38,13 +38,14 @@
                             </div>
                             <div class="edu-form__group">
                                 <label class="label" for="document">CPF:</label>
-                                <input class="edu-form__input" type="number" id="document" name="document">
+                                <input type="tel" class="edu-form__input document" id="document" name="document">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="edu-form__group">
                                 <label class="label" for="date_of_birth">Data de Nascimento:</label>
-                                <input class="edu-form__input" type="date" id="date_of_birth" name="date_of_birth">
+                                <input type="tel" placeholder="Data de Nascimento" class="edu-form__input date_of_birth"
+                                    id="date_of_birth" name="date_of_birth">
                             </div>
                             <div class="edu-form__group">
                                 <label class="label" for="email">Email:</label>
@@ -62,7 +63,7 @@
                                     name="password_confirmation">
                             </div>
                         </div>
-                        <button type="submit">Cadastrar</button>
+                        <button class="edu-btn edu-btn-lg edu-btn-success edu-fw-bld" type="submit">Cadastrar</button>
                     </form>
                 </div>
             </div>

@@ -53,13 +53,13 @@ const dropdown = () => {
 
     edu.preventDefault()
 
-    operateNavigations("dropdown", target, _variables);
+    operateNavigations("dropdown", target, _variables)
 
   })
 
   window.addEventListener("mouseup", edu => {
 
-    closeComponents("dropdown", edu, _variables);
+    closeComponents("dropdown", edu, _variables)
 
   })
 
@@ -111,5 +111,10 @@ $(document).ready(function() {
       "infoFiltered": "(filtrado de _MAX_ registros no total)",
       "search": "Pesquisar"
     }
-  });
-});
+  })
+})
+
+$(document).ready(function(){
+  $('.document').mask('000.000.000-00', {reverse: true, placeholder: '123.456.789-00'})
+  $('.date_of_birth').mask('00/00/0000')
+})
