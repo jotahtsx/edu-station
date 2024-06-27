@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Admin\User as UserRequest;
 use Illuminate\Http\Request;
 
 class PrincipalController extends Controller
@@ -12,7 +13,7 @@ class PrincipalController extends Controller
         return view('admin.principals.index');
     }
 
-    public function store(Request $request)
+    public function store(UserRequest $request)
     {
         var_dump($request->all());
     }
