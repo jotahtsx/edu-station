@@ -115,6 +115,6 @@ $(document).ready(function() {
 })
 
 $(document).ready(function(){
-  $('.document').mask('000.000.000-00', {reverse: true, placeholder: '123.456.789-00'})
+  $('.document').mask('000.000.000-00', {reverse: true, placeholder: 'Exemplo: 123.456.789-00'})
   $('.date_of_birth').mask('00/00/0000')
 })

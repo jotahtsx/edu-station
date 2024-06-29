@@ -33,23 +33,36 @@
                                 <input class="edu-form__input input @error('name') input-error @enderror" type="text"
                                     id="name" name="name" value="{{ old('name') }}">
                                 @error('name')
-                                    <div class="error-message">{{ $message }}</div> <!-- text-red-500 text-sm mt-1 -->
+                                    <div class="error-message">{{ $message }}</div>
                                 @enderror
                             </div>
                             <div class="edu-form__group">
                                 <label class="label" for="document">CPF:</label>
-                                <input type="tel" class="edu-form__input document" id="document" name="document">
+                                <input type="tel"
+                                    class="edu-form__input input document @error('document') input-error @enderror"
+                                    id="document" name="document" value="{{ old('document') }}">
+                                @error('document')
+                                    <div class="error-message">{{ $message }}</div>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="edu-form__group">
                                 <label class="label" for="date_of_birth">Data de Nascimento:</label>
-                                <input type="tel" placeholder="Data de Nascimento" class="edu-form__input date_of_birth"
-                                    id="date_of_birth" name="date_of_birth">
+                                <input type="tel" placeholder="Data de Nascimento"
+                                    class="edu-form__input birth_date @error('birth_date') input-error @enderror"
+                                    id="birth_date" name="birth_date">
+                                @error('birth_date')
+                                    <div class="error-message">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="edu-form__group">
                                 <label class="label" for="email">Email:</label>
-                                <input class="edu-form__input" type="email" id="email" name="email">
+                                <input class="edu-form__input birth_date @error('email') input-error @enderror"
+                                    type="email" placeholder="Seu melhor email" id="email" name="email">
+                                @error('email')
+                                    <div class="error-message">{{ $message }}</div>
+                                @enderror
                             </div>
                         </div>
                         <div class="form-row">

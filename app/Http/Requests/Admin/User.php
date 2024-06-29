@@ -23,6 +23,9 @@ class User extends FormRequest
     {
         return [
             'name' => 'required|min:3|max:191',
+            'document' => 'required',
+            'birth_date' => 'required',
+            'email' => 'required'
         ];
     }
 }

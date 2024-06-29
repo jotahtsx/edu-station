@@ -4418,6 +4418,10 @@ h6, .edu-h6 {
   transform: translateY(-50%);
 }
 
+.form-definition {
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
 .form-definition .edu-form__group {
   margin-bottom: 1.5rem;
 }
