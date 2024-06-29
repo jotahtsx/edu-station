@@ -58,8 +58,8 @@
                             </div>
                             <div class="edu-form__group">
                                 <label class="label" for="email">Email:</label>
-                                <input class="edu-form__input birth_date @error('email') input-error @enderror"
-                                    type="email" placeholder="Seu melhor email" id="email" name="email">
+                                <input class="edu-form__input email @error('email') input-error @enderror" type="email"
+                                    placeholder="Seu melhor email" id="email" name="email">
                                 @error('email')
                                     <div class="error-message">{{ $message }}</div>
                                 @enderror
